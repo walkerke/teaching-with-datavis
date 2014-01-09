@@ -7,7 +7,7 @@ library(reshape2)
 
 dat <- read.csv("all_counties_by_top_six_groups.csv")
 
-keep <- c(1, 4, seq(7, 25, 3))
+keep <- seq(1, 25, 3)
 
 dat <- dat[,keep]
 
@@ -21,7 +21,7 @@ dat <- cbind(dat, ldply(str_split(dat$Name, ", ")))
 
 names(dat) <- c(nms, 'County', 'State')
 
-convCols <- c(2:9)
+convCols <- 2:9
 
 dat[,convCols] <- apply(dat[,convCols], 2, function(x) as.numeric(as.character(gsub(",", "", x))))
 
