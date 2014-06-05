@@ -1,0 +1,357 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://nvd3.org/assets/css/nv.d3.css'>
+    
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://timelyportfolio.github.io/rCharts_nvd3_tests/libraries/widgets/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='http://nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart30c2b4b40ef' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart30c2b4b40ef()
+    });
+    function drawchart30c2b4b40ef(){  
+      var opts = {
+ "dom": "chart30c2b4b40ef",
+"width":    800,
+"height":    400,
+"x": "Age",
+"y": "Population",
+"group": "Gender",
+"type": "multiBarHorizontalChart",
+"id": "chart30c2b4b40ef" 
+},
+        data = [
+ {
+ "Age": "100+",
+"Gender": "Male",
+"Population":             -2,
+"abs":              2 
+},
+{
+ "Age": "95-99",
+"Gender": "Male",
+"Population":             -5,
+"abs":              5 
+},
+{
+ "Age": "90-94",
+"Gender": "Male",
+"Population":            -46,
+"abs":             46 
+},
+{
+ "Age": "85-89",
+"Gender": "Male",
+"Population":           -168,
+"abs":            168 
+},
+{
+ "Age": "80-84",
+"Gender": "Male",
+"Population":           -530,
+"abs":            530 
+},
+{
+ "Age": "75-79",
+"Gender": "Male",
+"Population":          -1250,
+"abs":           1250 
+},
+{
+ "Age": "70-74",
+"Gender": "Male",
+"Population":          -2434,
+"abs":           2434 
+},
+{
+ "Age": "65-69",
+"Gender": "Male",
+"Population":          -6791,
+"abs":           6791 
+},
+{
+ "Age": "60-64",
+"Gender": "Male",
+"Population":         -18027,
+"abs":          18027 
+},
+{
+ "Age": "55-59",
+"Gender": "Male",
+"Population":         -37359,
+"abs":          37359 
+},
+{
+ "Age": "50-54",
+"Gender": "Male",
+"Population":         -67290,
+"abs":          67290 
+},
+{
+ "Age": "45-49",
+"Gender": "Male",
+"Population":        -128313,
+"abs":         128313 
+},
+{
+ "Age": "40-44",
+"Gender": "Male",
+"Population":        -206429,
+"abs":         206429 
+},
+{
+ "Age": "35-39",
+"Gender": "Male",
+"Population":        -270114,
+"abs":         270114 
+},
+{
+ "Age": "30-34",
+"Gender": "Male",
+"Population":        -296465,
+"abs":         296465 
+},
+{
+ "Age": "25-29",
+"Gender": "Male",
+"Population":        -259540,
+"abs":         259540 
+},
+{
+ "Age": "20-24",
+"Gender": "Male",
+"Population":        -152929,
+"abs":         152929 
+},
+{
+ "Age": "15-19",
+"Gender": "Male",
+"Population":         -55349,
+"abs":          55349 
+},
+{
+ "Age": "10-14",
+"Gender": "Male",
+"Population":         -37916,
+"abs":          37916 
+},
+{
+ "Age": "5-9",
+"Gender": "Male",
+"Population":         -45308,
+"abs":          45308 
+},
+{
+ "Age": "0-4",
+"Gender": "Male",
+"Population":         -51253,
+"abs":          51253 
+},
+{
+ "Age": "100+",
+"Gender": "Female",
+"Population":              2,
+"abs":              2 
+},
+{
+ "Age": "95-99",
+"Gender": "Female",
+"Population":             17,
+"abs":             17 
+},
+{
+ "Age": "90-94",
+"Gender": "Female",
+"Population":             85,
+"abs":             85 
+},
+{
+ "Age": "85-89",
+"Gender": "Female",
+"Population":            242,
+"abs":            242 
+},
+{
+ "Age": "80-84",
+"Gender": "Female",
+"Population":            599,
+"abs":            599 
+},
+{
+ "Age": "75-79",
+"Gender": "Female",
+"Population":           1114,
+"abs":           1114 
+},
+{
+ "Age": "70-74",
+"Gender": "Female",
+"Population":           1758,
+"abs":           1758 
+},
+{
+ "Age": "65-69",
+"Gender": "Female",
+"Population":           3041,
+"abs":           3041 
+},
+{
+ "Age": "60-64",
+"Gender": "Female",
+"Population":           5932,
+"abs":           5932 
+},
+{
+ "Age": "55-59",
+"Gender": "Female",
+"Population":          10224,
+"abs":          10224 
+},
+{
+ "Age": "50-54",
+"Gender": "Female",
+"Population":          15818,
+"abs":          15818 
+},
+{
+ "Age": "45-49",
+"Gender": "Female",
+"Population":          22318,
+"abs":          22318 
+},
+{
+ "Age": "40-44",
+"Gender": "Female",
+"Population":          33260,
+"abs":          33260 
+},
+{
+ "Age": "35-39",
+"Gender": "Female",
+"Population":          51158,
+"abs":          51158 
+},
+{
+ "Age": "30-34",
+"Gender": "Female",
+"Population":          70310,
+"abs":          70310 
+},
+{
+ "Age": "25-29",
+"Gender": "Female",
+"Population":          63235,
+"abs":          63235 
+},
+{
+ "Age": "20-24",
+"Gender": "Female",
+"Population":          43332,
+"abs":          43332 
+},
+{
+ "Age": "15-19",
+"Gender": "Female",
+"Population":          32557,
+"abs":          32557 
+},
+{
+ "Age": "10-14",
+"Gender": "Female",
+"Population":          37060,
+"abs":          37060 
+},
+{
+ "Age": "5-9",
+"Gender": "Female",
+"Population":          43561,
+"abs":          43561 
+},
+{
+ "Age": "0-4",
+"Gender": "Female",
+"Population":          50019,
+"abs":          50019 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        chart
+  .stacked(true)
+  .tooltipContent( function(key, x, y, e){
+        var format = d3.format('0,000');
+        return '<h3>' + key + ', age ' + x + '</h3>' + 
+        '<p>' + 'Population: ' + format(e.point.abs) + '</p>'
+        } )
+  .color([ "darkred", "silver" ])
+          
+        
+
+        
+        
+        chart.yAxis
+  .axisLabel("Population")
+  .tickFormat( function(d) {
+                          return d3.format(',.0f')(Math.abs(d) / 1000) + 'K'
+                          } )
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>
