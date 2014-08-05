@@ -34,7 +34,9 @@ c1$chart(tooltipContent = "#! function(key, x, y){
         '<p>' + y + ' billion in ' + x + '</p>'
         } !#")
 
-# c1$chart(useInteractiveGuideline = "true")
+# c1$chart(useInteractiveGuideline = TRUE)
+
+# c1$chart(style = 'expand')
 
 # Projected population by variant
 
