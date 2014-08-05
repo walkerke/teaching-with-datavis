@@ -1,0 +1,1863 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://nvd3.org/assets/css/nv.d3.css'>
+    
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://timelyportfolio.github.io/rCharts_nvd3_tests/libraries/widgets/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='http://nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chartdfc5a396b7a' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchartdfc5a396b7a()
+    });
+    function drawchartdfc5a396b7a(){  
+      var opts = {
+ "dom": "chartdfc5a396b7a",
+"width":    800,
+"height":    400,
+"x": "Time",
+"y": "billions",
+"group": "varfactor",
+"type": "lineChart",
+"id": "chartdfc5a396b7a" 
+},
+        data = [
+ {
+ "varfactor": "Constant fertility",
+"Time": 2012,
+"billions":    7.087375436 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2013,
+"billions":    7.175186584 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2014,
+"billions":    7.264003722 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2015,
+"billions":    7.353522434 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2016,
+"billions":    7.443680488 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2017,
+"billions":    7.534492878 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2018,
+"billions":     7.62582239 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2019,
+"billions":    7.717524596 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2020,
+"billions":     7.80949688 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2021,
+"billions":    7.901696192 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2022,
+"billions":    7.994135853 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2023,
+"billions":    8.086852857 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2024,
+"billions":    8.179917987 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2025,
+"billions":    8.273410403 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2026,
+"billions":    8.367374511 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2027,
+"billions":    8.461881986 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2028,
+"billions":    8.557083922 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2029,
+"billions":    8.653165399 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2030,
+"billions":    8.750295663 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2031,
+"billions":    8.848581563 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2032,
+"billions":    8.948121713 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2033,
+"billions":    9.049069657 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2034,
+"billions":    9.151589398 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2035,
+"billions":     9.25582791 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2036,
+"billions":    9.361911354 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2037,
+"billions":    9.469935886 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2038,
+"billions":    9.579979857 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2039,
+"billions":    9.692105209 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2040,
+"billions":    9.806383028 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2041,
+"billions":    9.922928843 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2042,
+"billions":          10.04 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2043,
+"billions":          10.16 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2044,
+"billions":          10.29 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2045,
+"billions":          10.41 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2046,
+"billions":          10.54 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2047,
+"billions":          10.67 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2048,
+"billions":          10.81 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2049,
+"billions":          10.95 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2050,
+"billions":          11.09 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2051,
+"billions":          11.23 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2052,
+"billions":          11.38 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2053,
+"billions":          11.54 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2054,
+"billions":          11.69 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2055,
+"billions":          11.85 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2056,
+"billions":          12.02 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2057,
+"billions":          12.19 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2058,
+"billions":          12.36 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2059,
+"billions":          12.54 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2060,
+"billions":          12.73 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2061,
+"billions":          12.92 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2062,
+"billions":          13.12 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2063,
+"billions":          13.32 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2064,
+"billions":          13.53 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2065,
+"billions":          13.75 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2066,
+"billions":          13.98 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2067,
+"billions":          14.21 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2068,
+"billions":          14.45 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2069,
+"billions":           14.7 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2070,
+"billions":          14.95 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2071,
+"billions":          15.22 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2072,
+"billions":          15.49 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2073,
+"billions":          15.78 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2074,
+"billions":          16.07 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2075,
+"billions":          16.37 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2076,
+"billions":          16.68 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2077,
+"billions":          17.01 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2078,
+"billions":          17.34 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2079,
+"billions":          17.69 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2080,
+"billions":          18.05 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2081,
+"billions":          18.42 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2082,
+"billions":          18.81 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2083,
+"billions":          19.21 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2084,
+"billions":          19.62 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2085,
+"billions":          20.05 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2086,
+"billions":          20.49 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2087,
+"billions":          20.95 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2088,
+"billions":          21.43 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2089,
+"billions":          21.92 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2090,
+"billions":          22.43 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2091,
+"billions":          22.96 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2092,
+"billions":          23.51 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2093,
+"billions":          24.08 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2094,
+"billions":          24.66 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2095,
+"billions":          25.27 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2096,
+"billions":           25.9 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2097,
+"billions":          26.55 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2098,
+"billions":          27.23 
+},
+{
+ "varfactor": "Constant fertility",
+"Time": 2099,
+"billions":          27.92 
+},
+{
+ "varfactor": "High",
+"Time": 2012,
+"billions":    7.099195343 
+},
+{
+ "varfactor": "High",
+"Time": 2013,
+"billions":    7.195451903 
+},
+{
+ "varfactor": "High",
+"Time": 2014,
+"billions":     7.29343574 
+},
+{
+ "varfactor": "High",
+"Time": 2015,
+"billions":    7.392233241 
+},
+{
+ "varfactor": "High",
+"Time": 2016,
+"billions":    7.491547608 
+},
+{
+ "varfactor": "High",
+"Time": 2017,
+"billions":     7.59145462 
+},
+{
+ "varfactor": "High",
+"Time": 2018,
+"billions":    7.691842064 
+},
+{
+ "varfactor": "High",
+"Time": 2019,
+"billions":    7.792682732 
+},
+{
+ "varfactor": "High",
+"Time": 2020,
+"billions":    7.893903838 
+},
+{
+ "varfactor": "High",
+"Time": 2021,
+"billions":    7.995411786 
+},
+{
+ "varfactor": "High",
+"Time": 2022,
+"billions":    8.096972974 
+},
+{
+ "varfactor": "High",
+"Time": 2023,
+"billions":    8.198226994 
+},
+{
+ "varfactor": "High",
+"Time": 2024,
+"billions":    8.298744353 
+},
+{
+ "varfactor": "High",
+"Time": 2025,
+"billions":    8.398226376 
+},
+{
+ "varfactor": "High",
+"Time": 2026,
+"billions":    8.496528413 
+},
+{
+ "varfactor": "High",
+"Time": 2027,
+"billions":    8.593734355 
+},
+{
+ "varfactor": "High",
+"Time": 2028,
+"billions":    8.690073475 
+},
+{
+ "varfactor": "High",
+"Time": 2029,
+"billions":    8.785903985 
+},
+{
+ "varfactor": "High",
+"Time": 2030,
+"billions":    8.881518706 
+},
+{
+ "varfactor": "High",
+"Time": 2031,
+"billions":    8.976990711 
+},
+{
+ "varfactor": "High",
+"Time": 2032,
+"billions":    9.072335341 
+},
+{
+ "varfactor": "High",
+"Time": 2033,
+"billions":    9.167727865 
+},
+{
+ "varfactor": "High",
+"Time": 2034,
+"billions":    9.263363028 
+},
+{
+ "varfactor": "High",
+"Time": 2035,
+"billions":    9.359399731 
+},
+{
+ "varfactor": "High",
+"Time": 2036,
+"billions":    9.455927543 
+},
+{
+ "varfactor": "High",
+"Time": 2037,
+"billions":    9.552994174 
+},
+{
+ "varfactor": "High",
+"Time": 2038,
+"billions":    9.650656642 
+},
+{
+ "varfactor": "High",
+"Time": 2039,
+"billions":    9.748953652 
+},
+{
+ "varfactor": "High",
+"Time": 2040,
+"billions":    9.847909272 
+},
+{
+ "varfactor": "High",
+"Time": 2041,
+"billions":    9.947554399 
+},
+{
+ "varfactor": "High",
+"Time": 2042,
+"billions":          10.05 
+},
+{
+ "varfactor": "High",
+"Time": 2043,
+"billions":          10.15 
+},
+{
+ "varfactor": "High",
+"Time": 2044,
+"billions":          10.25 
+},
+{
+ "varfactor": "High",
+"Time": 2045,
+"billions":          10.35 
+},
+{
+ "varfactor": "High",
+"Time": 2046,
+"billions":          10.45 
+},
+{
+ "varfactor": "High",
+"Time": 2047,
+"billions":          10.56 
+},
+{
+ "varfactor": "High",
+"Time": 2048,
+"billions":          10.66 
+},
+{
+ "varfactor": "High",
+"Time": 2049,
+"billions":          10.76 
+},
+{
+ "varfactor": "High",
+"Time": 2050,
+"billions":          10.87 
+},
+{
+ "varfactor": "High",
+"Time": 2051,
+"billions":          10.97 
+},
+{
+ "varfactor": "High",
+"Time": 2052,
+"billions":          11.08 
+},
+{
+ "varfactor": "High",
+"Time": 2053,
+"billions":          11.18 
+},
+{
+ "varfactor": "High",
+"Time": 2054,
+"billions":          11.28 
+},
+{
+ "varfactor": "High",
+"Time": 2055,
+"billions":          11.39 
+},
+{
+ "varfactor": "High",
+"Time": 2056,
+"billions":          11.49 
+},
+{
+ "varfactor": "High",
+"Time": 2057,
+"billions":           11.6 
+},
+{
+ "varfactor": "High",
+"Time": 2058,
+"billions":           11.7 
+},
+{
+ "varfactor": "High",
+"Time": 2059,
+"billions":          11.81 
+},
+{
+ "varfactor": "High",
+"Time": 2060,
+"billions":          11.91 
+},
+{
+ "varfactor": "High",
+"Time": 2061,
+"billions":          12.02 
+},
+{
+ "varfactor": "High",
+"Time": 2062,
+"billions":          12.12 
+},
+{
+ "varfactor": "High",
+"Time": 2063,
+"billions":          12.23 
+},
+{
+ "varfactor": "High",
+"Time": 2064,
+"billions":          12.34 
+},
+{
+ "varfactor": "High",
+"Time": 2065,
+"billions":          12.44 
+},
+{
+ "varfactor": "High",
+"Time": 2066,
+"billions":          12.55 
+},
+{
+ "varfactor": "High",
+"Time": 2067,
+"billions":          12.66 
+},
+{
+ "varfactor": "High",
+"Time": 2068,
+"billions":          12.77 
+},
+{
+ "varfactor": "High",
+"Time": 2069,
+"billions":          12.88 
+},
+{
+ "varfactor": "High",
+"Time": 2070,
+"billions":          12.99 
+},
+{
+ "varfactor": "High",
+"Time": 2071,
+"billions":           13.1 
+},
+{
+ "varfactor": "High",
+"Time": 2072,
+"billions":          13.21 
+},
+{
+ "varfactor": "High",
+"Time": 2073,
+"billions":          13.33 
+},
+{
+ "varfactor": "High",
+"Time": 2074,
+"billions":          13.44 
+},
+{
+ "varfactor": "High",
+"Time": 2075,
+"billions":          13.56 
+},
+{
+ "varfactor": "High",
+"Time": 2076,
+"billions":          13.67 
+},
+{
+ "varfactor": "High",
+"Time": 2077,
+"billions":          13.79 
+},
+{
+ "varfactor": "High",
+"Time": 2078,
+"billions":           13.9 
+},
+{
+ "varfactor": "High",
+"Time": 2079,
+"billions":          14.02 
+},
+{
+ "varfactor": "High",
+"Time": 2080,
+"billions":          14.14 
+},
+{
+ "varfactor": "High",
+"Time": 2081,
+"billions":          14.26 
+},
+{
+ "varfactor": "High",
+"Time": 2082,
+"billions":          14.38 
+},
+{
+ "varfactor": "High",
+"Time": 2083,
+"billions":           14.5 
+},
+{
+ "varfactor": "High",
+"Time": 2084,
+"billions":          14.63 
+},
+{
+ "varfactor": "High",
+"Time": 2085,
+"billions":          14.75 
+},
+{
+ "varfactor": "High",
+"Time": 2086,
+"billions":          14.87 
+},
+{
+ "varfactor": "High",
+"Time": 2087,
+"billions":             15 
+},
+{
+ "varfactor": "High",
+"Time": 2088,
+"billions":          15.12 
+},
+{
+ "varfactor": "High",
+"Time": 2089,
+"billions":          15.25 
+},
+{
+ "varfactor": "High",
+"Time": 2090,
+"billions":          15.37 
+},
+{
+ "varfactor": "High",
+"Time": 2091,
+"billions":           15.5 
+},
+{
+ "varfactor": "High",
+"Time": 2092,
+"billions":          15.62 
+},
+{
+ "varfactor": "High",
+"Time": 2093,
+"billions":          15.75 
+},
+{
+ "varfactor": "High",
+"Time": 2094,
+"billions":          15.88 
+},
+{
+ "varfactor": "High",
+"Time": 2095,
+"billions":             16 
+},
+{
+ "varfactor": "High",
+"Time": 2096,
+"billions":          16.13 
+},
+{
+ "varfactor": "High",
+"Time": 2097,
+"billions":          16.26 
+},
+{
+ "varfactor": "High",
+"Time": 2098,
+"billions":          16.39 
+},
+{
+ "varfactor": "High",
+"Time": 2099,
+"billions":          16.51 
+},
+{
+ "varfactor": "Medium",
+"Time": 2012,
+"billions":    7.080072417 
+},
+{
+ "varfactor": "Medium",
+"Time": 2013,
+"billions":    7.162119434 
+},
+{
+ "varfactor": "Medium",
+"Time": 2014,
+"billions":    7.243784121 
+},
+{
+ "varfactor": "Medium",
+"Time": 2015,
+"billions":    7.324782225 
+},
+{
+ "varfactor": "Medium",
+"Time": 2016,
+"billions":    7.404976783 
+},
+{
+ "varfactor": "Medium",
+"Time": 2017,
+"billions":    7.484325476 
+},
+{
+ "varfactor": "Medium",
+"Time": 2018,
+"billions":    7.562760049 
+},
+{
+ "varfactor": "Medium",
+"Time": 2019,
+"billions":    7.640244883 
+},
+{
+ "varfactor": "Medium",
+"Time": 2020,
+"billions":    7.716749042 
+},
+{
+ "varfactor": "Medium",
+"Time": 2021,
+"billions":    7.792209448 
+},
+{
+ "varfactor": "Medium",
+"Time": 2022,
+"billions":    7.866579808 
+},
+{
+ "varfactor": "Medium",
+"Time": 2023,
+"billions":    7.939876856 
+},
+{
+ "varfactor": "Medium",
+"Time": 2024,
+"billions":    8.012143175 
+},
+{
+ "varfactor": "Medium",
+"Time": 2025,
+"billions":    8.083412759 
+},
+{
+ "varfactor": "Medium",
+"Time": 2026,
+"billions":    8.153677369 
+},
+{
+ "varfactor": "Medium",
+"Time": 2027,
+"billions":    8.222926554 
+},
+{
+ "varfactor": "Medium",
+"Time": 2028,
+"billions":    8.291192823 
+},
+{
+ "varfactor": "Medium",
+"Time": 2029,
+"billions":    8.358519176 
+},
+{
+ "varfactor": "Medium",
+"Time": 2030,
+"billions":    8.424937474 
+},
+{
+ "varfactor": "Medium",
+"Time": 2031,
+"billions":    8.490455587 
+},
+{
+ "varfactor": "Medium",
+"Time": 2032,
+"billions":    8.555067634 
+},
+{
+ "varfactor": "Medium",
+"Time": 2033,
+"billions":    8.618773635 
+},
+{
+ "varfactor": "Medium",
+"Time": 2034,
+"billions":    8.681569042 
+},
+{
+ "varfactor": "Medium",
+"Time": 2035,
+"billions":    8.743446952 
+},
+{
+ "varfactor": "Medium",
+"Time": 2036,
+"billions":    8.804405816 
+},
+{
+ "varfactor": "Medium",
+"Time": 2037,
+"billions":    8.864436768 
+},
+{
+ "varfactor": "Medium",
+"Time": 2038,
+"billions":    8.923514713 
+},
+{
+ "varfactor": "Medium",
+"Time": 2039,
+"billions":    8.981607338 
+},
+{
+ "varfactor": "Medium",
+"Time": 2040,
+"billions":    9.038687151 
+},
+{
+ "varfactor": "Medium",
+"Time": 2041,
+"billions":    9.094743549 
+},
+{
+ "varfactor": "Medium",
+"Time": 2042,
+"billions":    9.149768513 
+},
+{
+ "varfactor": "Medium",
+"Time": 2043,
+"billions":     9.20374056 
+},
+{
+ "varfactor": "Medium",
+"Time": 2044,
+"billions":    9.256636273 
+},
+{
+ "varfactor": "Medium",
+"Time": 2045,
+"billions":    9.308438178 
+},
+{
+ "varfactor": "Medium",
+"Time": 2046,
+"billions":     9.35913984 
+},
+{
+ "varfactor": "Medium",
+"Time": 2047,
+"billions":    9.408741189 
+},
+{
+ "varfactor": "Medium",
+"Time": 2048,
+"billions":    9.457240781 
+},
+{
+ "varfactor": "Medium",
+"Time": 2049,
+"billions":    9.504640288 
+},
+{
+ "varfactor": "Medium",
+"Time": 2050,
+"billions":    9.550944891 
+},
+{
+ "varfactor": "Medium",
+"Time": 2051,
+"billions":     9.59616031 
+},
+{
+ "varfactor": "Medium",
+"Time": 2052,
+"billions":    9.640298273 
+},
+{
+ "varfactor": "Medium",
+"Time": 2053,
+"billions":    9.683379446 
+},
+{
+ "varfactor": "Medium",
+"Time": 2054,
+"billions":    9.725429894 
+},
+{
+ "varfactor": "Medium",
+"Time": 2055,
+"billions":    9.766475107 
+},
+{
+ "varfactor": "Medium",
+"Time": 2056,
+"billions":    9.806530407 
+},
+{
+ "varfactor": "Medium",
+"Time": 2057,
+"billions":     9.84561472 
+},
+{
+ "varfactor": "Medium",
+"Time": 2058,
+"billions":    9.883762213 
+},
+{
+ "varfactor": "Medium",
+"Time": 2059,
+"billions":     9.92101228 
+},
+{
+ "varfactor": "Medium",
+"Time": 2060,
+"billions":    9.957398588 
+},
+{
+ "varfactor": "Medium",
+"Time": 2061,
+"billions":    9.992942091 
+},
+{
+ "varfactor": "Medium",
+"Time": 2062,
+"billions":          10.03 
+},
+{
+ "varfactor": "Medium",
+"Time": 2063,
+"billions":          10.06 
+},
+{
+ "varfactor": "Medium",
+"Time": 2064,
+"billions":          10.09 
+},
+{
+ "varfactor": "Medium",
+"Time": 2065,
+"billions":          10.13 
+},
+{
+ "varfactor": "Medium",
+"Time": 2066,
+"billions":          10.16 
+},
+{
+ "varfactor": "Medium",
+"Time": 2067,
+"billions":          10.19 
+},
+{
+ "varfactor": "Medium",
+"Time": 2068,
+"billions":          10.22 
+},
+{
+ "varfactor": "Medium",
+"Time": 2069,
+"billions":          10.25 
+},
+{
+ "varfactor": "Medium",
+"Time": 2070,
+"billions":          10.28 
+},
+{
+ "varfactor": "Medium",
+"Time": 2071,
+"billions":          10.31 
+},
+{
+ "varfactor": "Medium",
+"Time": 2072,
+"billions":          10.33 
+},
+{
+ "varfactor": "Medium",
+"Time": 2073,
+"billions":          10.36 
+},
+{
+ "varfactor": "Medium",
+"Time": 2074,
+"billions":          10.38 
+},
+{
+ "varfactor": "Medium",
+"Time": 2075,
+"billions":          10.41 
+},
+{
+ "varfactor": "Medium",
+"Time": 2076,
+"billions":          10.43 
+},
+{
+ "varfactor": "Medium",
+"Time": 2077,
+"billions":          10.46 
+},
+{
+ "varfactor": "Medium",
+"Time": 2078,
+"billions":          10.48 
+},
+{
+ "varfactor": "Medium",
+"Time": 2079,
+"billions":           10.5 
+},
+{
+ "varfactor": "Medium",
+"Time": 2080,
+"billions":          10.52 
+},
+{
+ "varfactor": "Medium",
+"Time": 2081,
+"billions":          10.55 
+},
+{
+ "varfactor": "Medium",
+"Time": 2082,
+"billions":          10.57 
+},
+{
+ "varfactor": "Medium",
+"Time": 2083,
+"billions":          10.59 
+},
+{
+ "varfactor": "Medium",
+"Time": 2084,
+"billions":          10.61 
+},
+{
+ "varfactor": "Medium",
+"Time": 2085,
+"billions":          10.63 
+},
+{
+ "varfactor": "Medium",
+"Time": 2086,
+"billions":          10.65 
+},
+{
+ "varfactor": "Medium",
+"Time": 2087,
+"billions":          10.66 
+},
+{
+ "varfactor": "Medium",
+"Time": 2088,
+"billions":          10.68 
+},
+{
+ "varfactor": "Medium",
+"Time": 2089,
+"billions":           10.7 
+},
+{
+ "varfactor": "Medium",
+"Time": 2090,
+"billions":          10.72 
+},
+{
+ "varfactor": "Medium",
+"Time": 2091,
+"billions":          10.73 
+},
+{
+ "varfactor": "Medium",
+"Time": 2092,
+"billions":          10.75 
+},
+{
+ "varfactor": "Medium",
+"Time": 2093,
+"billions":          10.77 
+},
+{
+ "varfactor": "Medium",
+"Time": 2094,
+"billions":          10.78 
+},
+{
+ "varfactor": "Medium",
+"Time": 2095,
+"billions":          10.79 
+},
+{
+ "varfactor": "Medium",
+"Time": 2096,
+"billions":          10.81 
+},
+{
+ "varfactor": "Medium",
+"Time": 2097,
+"billions":          10.82 
+},
+{
+ "varfactor": "Medium",
+"Time": 2098,
+"billions":          10.83 
+},
+{
+ "varfactor": "Medium",
+"Time": 2099,
+"billions":          10.84 
+},
+{
+ "varfactor": "Low",
+"Time": 2012,
+"billions":     7.06080042 
+},
+{
+ "varfactor": "Low",
+"Time": 2013,
+"billions":    7.128540016 
+},
+{
+ "varfactor": "Low",
+"Time": 2014,
+"billions":    7.193795111 
+},
+{
+ "varfactor": "Low",
+"Time": 2015,
+"billions":    7.256924688 
+},
+{
+ "varfactor": "Low",
+"Time": 2016,
+"billions":    7.317957996 
+},
+{
+ "varfactor": "Low",
+"Time": 2017,
+"billions":    7.376732252 
+},
+{
+ "varfactor": "Low",
+"Time": 2018,
+"billions":    7.433217201 
+},
+{
+ "varfactor": "Low",
+"Time": 2019,
+"billions":    7.487359126 
+},
+{
+ "varfactor": "Low",
+"Time": 2020,
+"billions":    7.539162617 
+},
+{
+ "varfactor": "Low",
+"Time": 2021,
+"billions":    7.588606248 
+},
+{
+ "varfactor": "Low",
+"Time": 2022,
+"billions":    7.635839712 
+},
+{
+ "varfactor": "Low",
+"Time": 2023,
+"billions":    7.681247185 
+},
+{
+ "varfactor": "Low",
+"Time": 2024,
+"billions":    7.725329401 
+},
+{
+ "varfactor": "Low",
+"Time": 2025,
+"billions":    7.768450499 
+},
+{
+ "varfactor": "Low",
+"Time": 2026,
+"billions":    7.810752652 
+},
+{
+ "varfactor": "Low",
+"Time": 2027,
+"billions":    7.852161637 
+},
+{
+ "varfactor": "Low",
+"Time": 2028,
+"billions":    7.892550383 
+},
+{
+ "varfactor": "Low",
+"Time": 2029,
+"billions":    7.931693095 
+},
+{
+ "varfactor": "Low",
+"Time": 2030,
+"billions":    7.969407142 
+},
+{
+ "varfactor": "Low",
+"Time": 2031,
+"billions":     8.00566292 
+},
+{
+ "varfactor": "Low",
+"Time": 2032,
+"billions":     8.04047044 
+},
+{
+ "varfactor": "Low",
+"Time": 2033,
+"billions":    8.073723105 
+},
+{
+ "varfactor": "Low",
+"Time": 2034,
+"billions":    8.105297139 
+},
+{
+ "varfactor": "Low",
+"Time": 2035,
+"billions":    8.135087089 
+},
+{
+ "varfactor": "Low",
+"Time": 2036,
+"billions":    8.163036897 
+},
+{
+ "varfactor": "Low",
+"Time": 2037,
+"billions":    8.189105261 
+},
+{
+ "varfactor": "Low",
+"Time": 2038,
+"billions":    8.213223066 
+},
+{
+ "varfactor": "Low",
+"Time": 2039,
+"billions":    8.235322283 
+},
+{
+ "varfactor": "Low",
+"Time": 2040,
+"billions":    8.255351186 
+},
+{
+ "varfactor": "Low",
+"Time": 2041,
+"billions":     8.27327968 
+},
+{
+ "varfactor": "Low",
+"Time": 2042,
+"billions":     8.28909865 
+},
+{
+ "varfactor": "Low",
+"Time": 2043,
+"billions":    8.302809883 
+},
+{
+ "varfactor": "Low",
+"Time": 2044,
+"billions":    8.314429148 
+},
+{
+ "varfactor": "Low",
+"Time": 2045,
+"billions":    8.323977896 
+},
+{
+ "varfactor": "Low",
+"Time": 2046,
+"billions":    8.331464418 
+},
+{
+ "varfactor": "Low",
+"Time": 2047,
+"billions":    8.336912675 
+},
+{
+ "varfactor": "Low",
+"Time": 2048,
+"billions":    8.340384471 
+},
+{
+ "varfactor": "Low",
+"Time": 2049,
+"billions":    8.341958683 
+},
+{
+ "varfactor": "Low",
+"Time": 2050,
+"billions":    8.341706015 
+},
+{
+ "varfactor": "Low",
+"Time": 2051,
+"billions":    8.339666515 
+},
+{
+ "varfactor": "Low",
+"Time": 2052,
+"billions":    8.335874829 
+},
+{
+ "varfactor": "Low",
+"Time": 2053,
+"billions":    8.330390963 
+},
+{
+ "varfactor": "Low",
+"Time": 2054,
+"billions":    8.323279305 
+},
+{
+ "varfactor": "Low",
+"Time": 2055,
+"billions":    8.314596955 
+},
+{
+ "varfactor": "Low",
+"Time": 2056,
+"billions":    8.304384752 
+},
+{
+ "varfactor": "Low",
+"Time": 2057,
+"billions":    8.292676781 
+},
+{
+ "varfactor": "Low",
+"Time": 2058,
+"billions":     8.27951332 
+},
+{
+ "varfactor": "Low",
+"Time": 2059,
+"billions":    8.264932499 
+},
+{
+ "varfactor": "Low",
+"Time": 2060,
+"billions":    8.248966931 
+},
+{
+ "varfactor": "Low",
+"Time": 2061,
+"billions":    8.231647776 
+},
+{
+ "varfactor": "Low",
+"Time": 2062,
+"billions":    8.212995729 
+},
+{
+ "varfactor": "Low",
+"Time": 2063,
+"billions":    8.193018051 
+},
+{
+ "varfactor": "Low",
+"Time": 2064,
+"billions":    8.171713838 
+},
+{
+ "varfactor": "Low",
+"Time": 2065,
+"billions":    8.149085243 
+},
+{
+ "varfactor": "Low",
+"Time": 2066,
+"billions":     8.12515418 
+},
+{
+ "varfactor": "Low",
+"Time": 2067,
+"billions":    8.099939024 
+},
+{
+ "varfactor": "Low",
+"Time": 2068,
+"billions":    8.073433958 
+},
+{
+ "varfactor": "Low",
+"Time": 2069,
+"billions":    8.045626311 
+},
+{
+ "varfactor": "Low",
+"Time": 2070,
+"billions":    8.016514429 
+},
+{
+ "varfactor": "Low",
+"Time": 2071,
+"billions":     7.98612151 
+},
+{
+ "varfactor": "Low",
+"Time": 2072,
+"billions":    7.954481172 
+},
+{
+ "varfactor": "Low",
+"Time": 2073,
+"billions":    7.921617931 
+},
+{
+ "varfactor": "Low",
+"Time": 2074,
+"billions":     7.88755955 
+},
+{
+ "varfactor": "Low",
+"Time": 2075,
+"billions":    7.852341832 
+},
+{
+ "varfactor": "Low",
+"Time": 2076,
+"billions":    7.815995731 
+},
+{
+ "varfactor": "Low",
+"Time": 2077,
+"billions":    7.778572833 
+},
+{
+ "varfactor": "Low",
+"Time": 2078,
+"billions":    7.740157296 
+},
+{
+ "varfactor": "Low",
+"Time": 2079,
+"billions":    7.700849715 
+},
+{
+ "varfactor": "Low",
+"Time": 2080,
+"billions":    7.660737689 
+},
+{
+ "varfactor": "Low",
+"Time": 2081,
+"billions":    7.619872394 
+},
+{
+ "varfactor": "Low",
+"Time": 2082,
+"billions":    7.578293522 
+},
+{
+ "varfactor": "Low",
+"Time": 2083,
+"billions":    7.536062415 
+},
+{
+ "varfactor": "Low",
+"Time": 2084,
+"billions":    7.493240563 
+},
+{
+ "varfactor": "Low",
+"Time": 2085,
+"billions":    7.449880509 
+},
+{
+ "varfactor": "Low",
+"Time": 2086,
+"billions":    7.406029264 
+},
+{
+ "varfactor": "Low",
+"Time": 2087,
+"billions":    7.361717138 
+},
+{
+ "varfactor": "Low",
+"Time": 2088,
+"billions":    7.316957063 
+},
+{
+ "varfactor": "Low",
+"Time": 2089,
+"billions":    7.271750447 
+},
+{
+ "varfactor": "Low",
+"Time": 2090,
+"billions":    7.226103918 
+},
+{
+ "varfactor": "Low",
+"Time": 2091,
+"billions":    7.180035034 
+},
+{
+ "varfactor": "Low",
+"Time": 2092,
+"billions":    7.133570274 
+},
+{
+ "varfactor": "Low",
+"Time": 2093,
+"billions":     7.08674034 
+},
+{
+ "varfactor": "Low",
+"Time": 2094,
+"billions":    7.039574786 
+},
+{
+ "varfactor": "Low",
+"Time": 2095,
+"billions":    6.992097007 
+},
+{
+ "varfactor": "Low",
+"Time": 2096,
+"billions":    6.944322552 
+},
+{
+ "varfactor": "Low",
+"Time": 2097,
+"billions":    6.896258138 
+},
+{
+ "varfactor": "Low",
+"Time": 2098,
+"billions":    6.847901269 
+},
+{
+ "varfactor": "Low",
+"Time": 2099,
+"billions":    6.799240624 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        chart
+  .color([ "#66C2A5", "#FC8D62", "#8DA0CB", "#E78AC3" ])
+  .tooltipContent( function(key, x, y){
+        return '<h3>' + 'Variant: ' + key + '</h3>' + 
+        '<p>' + y + ' billion in ' + x + '</p>'
+        } )
+          
+        chart.xAxis
+  .axisLabel("Year")
+
+        
+        
+        chart.yAxis
+  .tickFormat(d3.format(',.1f'))
+  .axisLabel("Population (billions)")
+  .width(    62)
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>
