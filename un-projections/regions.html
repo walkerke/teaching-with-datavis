@@ -1,0 +1,4603 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='http://nvd3.org/assets/css/nv.d3.css'>
+    
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js' type='text/javascript'></script>
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://timelyportfolio.github.io/rCharts_nvd3_tests/libraries/widgets/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='http://nvd3.org/assets/lib/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chartdfc71c56957' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchartdfc71c56957()
+    });
+    function drawchartdfc71c56957(){  
+      var opts = {
+ "dom": "chartdfc71c56957",
+"width":    800,
+"height":    400,
+"x": "Time",
+"y": "billions",
+"group": "Location",
+"type": "stackedAreaChart",
+"id": "chartdfc71c56957" 
+},
+        data = [
+ {
+ "Location": "Africa",
+"Time": 1950,
+"billions":    0.228826701 
+},
+{
+ "Location": "Africa",
+"Time": 1951,
+"billions":    0.233363963 
+},
+{
+ "Location": "Africa",
+"Time": 1952,
+"billions":    0.238148029 
+},
+{
+ "Location": "Africa",
+"Time": 1953,
+"billions":    0.243179984 
+},
+{
+ "Location": "Africa",
+"Time": 1954,
+"billions":    0.248460115 
+},
+{
+ "Location": "Africa",
+"Time": 1955,
+"billions":    0.253987898 
+},
+{
+ "Location": "Africa",
+"Time": 1956,
+"billions":    0.259761928 
+},
+{
+ "Location": "Africa",
+"Time": 1957,
+"billions":     0.26577998 
+},
+{
+ "Location": "Africa",
+"Time": 1958,
+"billions":    0.272039268 
+},
+{
+ "Location": "Africa",
+"Time": 1959,
+"billions":    0.278536742 
+},
+{
+ "Location": "Africa",
+"Time": 1960,
+"billions":    0.285270283 
+},
+{
+ "Location": "Africa",
+"Time": 1961,
+"billions":    0.292239805 
+},
+{
+ "Location": "Africa",
+"Time": 1962,
+"billions":    0.299448338 
+},
+{
+ "Location": "Africa",
+"Time": 1963,
+"billions":    0.306902447 
+},
+{
+ "Location": "Africa",
+"Time": 1964,
+"billions":    0.314610993 
+},
+{
+ "Location": "Africa",
+"Time": 1965,
+"billions":    0.322581411 
+},
+{
+ "Location": "Africa",
+"Time": 1966,
+"billions":     0.33082468 
+},
+{
+ "Location": "Africa",
+"Time": 1967,
+"billions":    0.339344402 
+},
+{
+ "Location": "Africa",
+"Time": 1968,
+"billions":    0.348132865 
+},
+{
+ "Location": "Africa",
+"Time": 1969,
+"billions":    0.357177589 
+},
+{
+ "Location": "Africa",
+"Time": 1970,
+"billions":    0.366474876 
+},
+{
+ "Location": "Africa",
+"Time": 1971,
+"billions":    0.376023683 
+},
+{
+ "Location": "Africa",
+"Time": 1972,
+"billions":    0.385844196 
+},
+{
+ "Location": "Africa",
+"Time": 1973,
+"billions":    0.395980141 
+},
+{
+ "Location": "Africa",
+"Time": 1974,
+"billions":    0.406488628 
+},
+{
+ "Location": "Africa",
+"Time": 1975,
+"billions":    0.417412997 
+},
+{
+ "Location": "Africa",
+"Time": 1976,
+"billions":    0.428768173 
+},
+{
+ "Location": "Africa",
+"Time": 1977,
+"billions":    0.440551017 
+},
+{
+ "Location": "Africa",
+"Time": 1978,
+"billions":    0.452763533 
+},
+{
+ "Location": "Africa",
+"Time": 1979,
+"billions":    0.465401494 
+},
+{
+ "Location": "Africa",
+"Time": 1980,
+"billions":    0.478459469 
+},
+{
+ "Location": "Africa",
+"Time": 1981,
+"billions":    0.491936867 
+},
+{
+ "Location": "Africa",
+"Time": 1982,
+"billions":    0.505830184 
+},
+{
+ "Location": "Africa",
+"Time": 1983,
+"billions":    0.520125247 
+},
+{
+ "Location": "Africa",
+"Time": 1984,
+"billions":    0.534803229 
+},
+{
+ "Location": "Africa",
+"Time": 1985,
+"billions":    0.549845785 
+},
+{
+ "Location": "Africa",
+"Time": 1986,
+"billions":    0.565243912 
+},
+{
+ "Location": "Africa",
+"Time": 1987,
+"billions":     0.58098513 
+},
+{
+ "Location": "Africa",
+"Time": 1988,
+"billions":    0.597042767 
+},
+{
+ "Location": "Africa",
+"Time": 1989,
+"billions":    0.613385342 
+},
+{
+ "Location": "Africa",
+"Time": 1990,
+"billions":    0.629986978 
+},
+{
+ "Location": "Africa",
+"Time": 1991,
+"billions":    0.646850063 
+},
+{
+ "Location": "Africa",
+"Time": 1992,
+"billions":    0.663970917 
+},
+{
+ "Location": "Africa",
+"Time": 1993,
+"billions":    0.681313098 
+},
+{
+ "Location": "Africa",
+"Time": 1994,
+"billions":    0.698832104 
+},
+{
+ "Location": "Africa",
+"Time": 1995,
+"billions":     0.71650513 
+},
+{
+ "Location": "Africa",
+"Time": 1996,
+"billions":    0.734327272 
+},
+{
+ "Location": "Africa",
+"Time": 1997,
+"billions":    0.752335507 
+},
+{
+ "Location": "Africa",
+"Time": 1998,
+"billions":    0.770603833 
+},
+{
+ "Location": "Africa",
+"Time": 1999,
+"billions":    0.789232248 
+},
+{
+ "Location": "Africa",
+"Time": 2000,
+"billions":    0.808304337 
+},
+{
+ "Location": "Africa",
+"Time": 2001,
+"billions":    0.827848324 
+},
+{
+ "Location": "Africa",
+"Time": 2002,
+"billions":    0.847881899 
+},
+{
+ "Location": "Africa",
+"Time": 2003,
+"billions":    0.868465269 
+},
+{
+ "Location": "Africa",
+"Time": 2004,
+"billions":    0.889664123 
+},
+{
+ "Location": "Africa",
+"Time": 2005,
+"billions":    0.911527669 
+},
+{
+ "Location": "Africa",
+"Time": 2006,
+"billions":    0.934078578 
+},
+{
+ "Location": "Africa",
+"Time": 2007,
+"billions":    0.957318065 
+},
+{
+ "Location": "Africa",
+"Time": 2008,
+"billions":    0.981242742 
+},
+{
+ "Location": "Africa",
+"Time": 2009,
+"billions":    1.005837615 
+},
+{
+ "Location": "Africa",
+"Time": 2010,
+"billions":    1.031083666 
+},
+{
+ "Location": "Africa",
+"Time": 2011,
+"billions":    1.056984793 
+},
+{
+ "Location": "Africa",
+"Time": 2012,
+"billions":    1.083524353 
+},
+{
+ "Location": "Africa",
+"Time": 2013,
+"billions":    1.110635062 
+},
+{
+ "Location": "Africa",
+"Time": 2014,
+"billions":    1.138229191 
+},
+{
+ "Location": "Africa",
+"Time": 2015,
+"billions":    1.166239306 
+},
+{
+ "Location": "Africa",
+"Time": 2016,
+"billions":    1.194637434 
+},
+{
+ "Location": "Africa",
+"Time": 2017,
+"billions":    1.223424584 
+},
+{
+ "Location": "Africa",
+"Time": 2018,
+"billions":    1.252598814 
+},
+{
+ "Location": "Africa",
+"Time": 2019,
+"billions":    1.282169043 
+},
+{
+ "Location": "Africa",
+"Time": 2020,
+"billions":    1.312142128 
+},
+{
+ "Location": "Africa",
+"Time": 2021,
+"billions":    1.342509827 
+},
+{
+ "Location": "Africa",
+"Time": 2022,
+"billions":    1.373264533 
+},
+{
+ "Location": "Africa",
+"Time": 2023,
+"billions":    1.404416652 
+},
+{
+ "Location": "Africa",
+"Time": 2024,
+"billions":    1.435981916 
+},
+{
+ "Location": "Africa",
+"Time": 2025,
+"billions":    1.467972527 
+},
+{
+ "Location": "Africa",
+"Time": 2026,
+"billions":    1.500388873 
+},
+{
+ "Location": "Africa",
+"Time": 2027,
+"billions":    1.533229125 
+},
+{
+ "Location": "Africa",
+"Time": 2028,
+"billions":    1.566500504 
+},
+{
+ "Location": "Africa",
+"Time": 2029,
+"billions":    1.600211344 
+},
+{
+ "Location": "Africa",
+"Time": 2030,
+"billions":    1.634366269 
+},
+{
+ "Location": "Africa",
+"Time": 2031,
+"billions":    1.668962931 
+},
+{
+ "Location": "Africa",
+"Time": 2032,
+"billions":    1.703995001 
+},
+{
+ "Location": "Africa",
+"Time": 2033,
+"billions":    1.739457103 
+},
+{
+ "Location": "Africa",
+"Time": 2034,
+"billions":     1.77534187 
+},
+{
+ "Location": "Africa",
+"Time": 2035,
+"billions":    1.811639663 
+},
+{
+ "Location": "Africa",
+"Time": 2036,
+"billions":    1.848340896 
+},
+{
+ "Location": "Africa",
+"Time": 2037,
+"billions":    1.885431639 
+},
+{
+ "Location": "Africa",
+"Time": 2038,
+"billions":     1.92289132 
+},
+{
+ "Location": "Africa",
+"Time": 2039,
+"billions":    1.960695586 
+},
+{
+ "Location": "Africa",
+"Time": 2040,
+"billions":    1.998821019 
+},
+{
+ "Location": "Africa",
+"Time": 2041,
+"billions":    2.037249888 
+},
+{
+ "Location": "Africa",
+"Time": 2042,
+"billions":    2.075964539 
+},
+{
+ "Location": "Africa",
+"Time": 2043,
+"billions":    2.114941083 
+},
+{
+ "Location": "Africa",
+"Time": 2044,
+"billions":    2.154153944 
+},
+{
+ "Location": "Africa",
+"Time": 2045,
+"billions":    2.193578918 
+},
+{
+ "Location": "Africa",
+"Time": 2046,
+"billions":    2.233196168 
+},
+{
+ "Location": "Africa",
+"Time": 2047,
+"billions":    2.272986662 
+},
+{
+ "Location": "Africa",
+"Time": 2048,
+"billions":    2.312928092 
+},
+{
+ "Location": "Africa",
+"Time": 2049,
+"billions":    2.352997834 
+},
+{
+ "Location": "Africa",
+"Time": 2050,
+"billions":    2.393174892 
+},
+{
+ "Location": "Africa",
+"Time": 2051,
+"billions":    2.433439755 
+},
+{
+ "Location": "Africa",
+"Time": 2052,
+"billions":    2.473775766 
+},
+{
+ "Location": "Africa",
+"Time": 2053,
+"billions":    2.514168616 
+},
+{
+ "Location": "Africa",
+"Time": 2054,
+"billions":     2.55460582 
+},
+{
+ "Location": "Africa",
+"Time": 2055,
+"billions":    2.595074155 
+},
+{
+ "Location": "Africa",
+"Time": 2056,
+"billions":    2.635557017 
+},
+{
+ "Location": "Africa",
+"Time": 2057,
+"billions":    2.676037738 
+},
+{
+ "Location": "Africa",
+"Time": 2058,
+"billions":    2.716503123 
+},
+{
+ "Location": "Africa",
+"Time": 2059,
+"billions":    2.756940838 
+},
+{
+ "Location": "Africa",
+"Time": 2060,
+"billions":    2.797337341 
+},
+{
+ "Location": "Africa",
+"Time": 2061,
+"billions":    2.837677325 
+},
+{
+ "Location": "Africa",
+"Time": 2062,
+"billions":    2.877943573 
+},
+{
+ "Location": "Africa",
+"Time": 2063,
+"billions":    2.918118179 
+},
+{
+ "Location": "Africa",
+"Time": 2064,
+"billions":    2.958182287 
+},
+{
+ "Location": "Africa",
+"Time": 2065,
+"billions":    2.998117406 
+},
+{
+ "Location": "Africa",
+"Time": 2066,
+"billions":    3.037905795 
+},
+{
+ "Location": "Africa",
+"Time": 2067,
+"billions":    3.077530536 
+},
+{
+ "Location": "Africa",
+"Time": 2068,
+"billions":    3.116974759 
+},
+{
+ "Location": "Africa",
+"Time": 2069,
+"billions":     3.15622182 
+},
+{
+ "Location": "Africa",
+"Time": 2070,
+"billions":    3.195254409 
+},
+{
+ "Location": "Africa",
+"Time": 2071,
+"billions":    3.234056056 
+},
+{
+ "Location": "Africa",
+"Time": 2072,
+"billions":    3.272608005 
+},
+{
+ "Location": "Africa",
+"Time": 2073,
+"billions":    3.310887942 
+},
+{
+ "Location": "Africa",
+"Time": 2074,
+"billions":    3.348871911 
+},
+{
+ "Location": "Africa",
+"Time": 2075,
+"billions":    3.386538103 
+},
+{
+ "Location": "Africa",
+"Time": 2076,
+"billions":    3.423868246 
+},
+{
+ "Location": "Africa",
+"Time": 2077,
+"billions":    3.460847225 
+},
+{
+ "Location": "Africa",
+"Time": 2078,
+"billions":    3.497460476 
+},
+{
+ "Location": "Africa",
+"Time": 2079,
+"billions":    3.533694857 
+},
+{
+ "Location": "Africa",
+"Time": 2080,
+"billions":    3.569536916 
+},
+{
+ "Location": "Africa",
+"Time": 2081,
+"billions":     3.60497274 
+},
+{
+ "Location": "Africa",
+"Time": 2082,
+"billions":    3.639987215 
+},
+{
+ "Location": "Africa",
+"Time": 2083,
+"billions":    3.674564701 
+},
+{
+ "Location": "Africa",
+"Time": 2084,
+"billions":    3.708689233 
+},
+{
+ "Location": "Africa",
+"Time": 2085,
+"billions":    3.742346339 
+},
+{
+ "Location": "Africa",
+"Time": 2086,
+"billions":    3.775522885 
+},
+{
+ "Location": "Africa",
+"Time": 2087,
+"billions":    3.808208309 
+},
+{
+ "Location": "Africa",
+"Time": 2088,
+"billions":    3.840394121 
+},
+{
+ "Location": "Africa",
+"Time": 2089,
+"billions":    3.872073448 
+},
+{
+ "Location": "Africa",
+"Time": 2090,
+"billions":    3.903238814 
+},
+{
+ "Location": "Africa",
+"Time": 2091,
+"billions":    3.933881315 
+},
+{
+ "Location": "Africa",
+"Time": 2092,
+"billions":    3.963990947 
+},
+{
+ "Location": "Africa",
+"Time": 2093,
+"billions":    3.993557217 
+},
+{
+ "Location": "Africa",
+"Time": 2094,
+"billions":    4.022569835 
+},
+{
+ "Location": "Africa",
+"Time": 2095,
+"billions":    4.051019433 
+},
+{
+ "Location": "Africa",
+"Time": 2096,
+"billions":    4.078897745 
+},
+{
+ "Location": "Africa",
+"Time": 2097,
+"billions":     4.10619778 
+},
+{
+ "Location": "Africa",
+"Time": 2098,
+"billions":    4.132913821 
+},
+{
+ "Location": "Africa",
+"Time": 2099,
+"billions":    4.159041433 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1950,
+"billions":    0.167869365 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1951,
+"billions":    0.172396601 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1952,
+"billions":    0.177134116 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1953,
+"billions":    0.182041744 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1954,
+"billions":    0.187092156 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1955,
+"billions":      0.1922708 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1956,
+"billions":    0.197576711 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1957,
+"billions":    0.203021706 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1958,
+"billions":    0.208628217 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1959,
+"billions":    0.214425518 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1960,
+"billions":    0.220438599 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1961,
+"billions":    0.226676297 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1962,
+"billions":    0.233120849 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1963,
+"billions":    0.239723472 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1964,
+"billions":    0.246416949 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1965,
+"billions":    0.253152873 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1966,
+"billions":    0.259910999 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1967,
+"billions":    0.266703989 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1968,
+"billions":    0.273556534 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1969,
+"billions":    0.280508469 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1970,
+"billions":     0.28758824 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1971,
+"billions":    0.294797246 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1972,
+"billions":    0.302122391 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1973,
+"billions":    0.309560148 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1974,
+"billions":    0.317103842 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1975,
+"billions":    0.324745994 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1976,
+"billions":    0.332486364 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1977,
+"billions":    0.340319083 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1978,
+"billions":    0.348223695 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1979,
+"billions":    0.356174078 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1980,
+"billions":    0.364150417 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1981,
+"billions":     0.37214212 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1982,
+"billions":    0.380149506 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1983,
+"billions":    0.388177178 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1984,
+"billions":    0.396234953 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1985,
+"billions":    0.404329113 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1986,
+"billions":    0.412454963 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1987,
+"billions":    0.420605087 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1988,
+"billions":    0.428779665 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1989,
+"billions":    0.436979539 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1990,
+"billions":     0.44520265 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1991,
+"billions":    0.453442003 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1992,
+"billions":     0.46168728 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1993,
+"billions":    0.469928012 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1994,
+"billions":    0.478151893 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1995,
+"billions":    0.486345237 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1996,
+"billions":    0.494505187 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1997,
+"billions":    0.502618122 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1998,
+"billions":    0.510646746 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 1999,
+"billions":    0.518544536 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2000,
+"billions":    0.526278228 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2001,
+"billions":    0.533837563 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2002,
+"billions":    0.541230751 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2003,
+"billions":    0.548467705 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2004,
+"billions":    0.555566746 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2005,
+"billions":    0.562546289 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2006,
+"billions":     0.56940004 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2007,
+"billions":    0.576136312 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2008,
+"billions":    0.582806225 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2009,
+"billions":    0.589476128 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2010,
+"billions":    0.596191445 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2011,
+"billions":     0.60297423 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2012,
+"billions":    0.609806695 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2013,
+"billions":    0.616644503 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2014,
+"billions":    0.623421702 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2015,
+"billions":    0.630088917 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2016,
+"billions":    0.636630464 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2017,
+"billions":    0.643056004 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2018,
+"billions":    0.649371566 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2019,
+"billions":    0.655591363 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2020,
+"billions":    0.661724274 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2021,
+"billions":    0.667767053 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2022,
+"billions":    0.673708377 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2023,
+"billions":    0.679539801 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2024,
+"billions":    0.685250819 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2025,
+"billions":    0.690832673 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2026,
+"billions":    0.696280821 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2027,
+"billions":    0.701592744 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2028,
+"billions":     0.70676423 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2029,
+"billions":    0.711791504 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2030,
+"billions":    0.716671286 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2031,
+"billions":    0.721400327 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2032,
+"billions":     0.72597632 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2033,
+"billions":    0.730398328 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2034,
+"billions":    0.734666226 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2035,
+"billions":    0.738779734 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2036,
+"billions":    0.742737586 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2037,
+"billions":    0.746538445 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2038,
+"billions":    0.750181967 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2039,
+"billions":    0.753668122 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2040,
+"billions":    0.756996808 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2041,
+"billions":    0.760168385 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2042,
+"billions":    0.763182546 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2043,
+"billions":    0.766037905 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2044,
+"billions":    0.768732618 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2045,
+"billions":    0.771265878 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2046,
+"billions":    0.773637515 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2047,
+"billions":    0.775849335 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2048,
+"billions":    0.777904953 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2049,
+"billions":    0.779809213 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2050,
+"billions":    0.781566037 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2051,
+"billions":    0.783177689 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2052,
+"billions":    0.784644913 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2053,
+"billions":    0.785968411 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2054,
+"billions":     0.78714836 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2055,
+"billions":    0.788185422 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2056,
+"billions":    0.789081527 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2057,
+"billions":    0.789839109 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2058,
+"billions":    0.790460042 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2059,
+"billions":    0.790946266 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2060,
+"billions":    0.791300014 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2061,
+"billions":    0.791523694 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2062,
+"billions":    0.791620136 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2063,
+"billions":    0.791592594 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2064,
+"billions":    0.791444673 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2065,
+"billions":    0.791179916 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2066,
+"billions":    0.790801397 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2067,
+"billions":    0.790312351 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2068,
+"billions":    0.789716805 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2069,
+"billions":    0.789019064 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2070,
+"billions":    0.788223189 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2071,
+"billions":    0.787332864 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2072,
+"billions":    0.786351338 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2073,
+"billions":    0.785281653 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2074,
+"billions":    0.784126677 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2075,
+"billions":    0.782889461 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2076,
+"billions":    0.781573539 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2077,
+"billions":    0.780182649 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2078,
+"billions":    0.778720305 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2079,
+"billions":    0.777190045 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2080,
+"billions":    0.775595519 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2081,
+"billions":    0.773940317 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2082,
+"billions":    0.772228308 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2083,
+"billions":    0.770463778 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2084,
+"billions":     0.76865125 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2085,
+"billions":    0.766795059 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2086,
+"billions":    0.764899017 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2087,
+"billions":    0.762966779 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2088,
+"billions":    0.761002363 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2089,
+"billions":    0.759009723 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2090,
+"billions":    0.756992726 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2091,
+"billions":    0.754955016 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2092,
+"billions":    0.752900052 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2093,
+"billions":    0.750831184 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2094,
+"billions":    0.748751651 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2095,
+"billions":    0.746664662 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2096,
+"billions":    0.744573392 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2097,
+"billions":    0.742480993 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2098,
+"billions":    0.740390621 
+},
+{
+ "Location": "Latin America and the Caribbean",
+"Time": 2099,
+"billions":    0.738305385 
+},
+{
+ "Location": "Northern America",
+"Time": 1950,
+"billions":    0.171614868 
+},
+{
+ "Location": "Northern America",
+"Time": 1951,
+"billions":    0.174093192 
+},
+{
+ "Location": "Northern America",
+"Time": 1952,
+"billions":    0.176911378 
+},
+{
+ "Location": "Northern America",
+"Time": 1953,
+"billions":    0.180001414 
+},
+{
+ "Location": "Northern America",
+"Time": 1954,
+"billions":    0.183299168 
+},
+{
+ "Location": "Northern America",
+"Time": 1955,
+"billions":      0.1867444 
+},
+{
+ "Location": "Northern America",
+"Time": 1956,
+"billions":    0.190280625 
+},
+{
+ "Location": "Northern America",
+"Time": 1957,
+"billions":    0.193855245 
+},
+{
+ "Location": "Northern America",
+"Time": 1958,
+"billions":    0.197419906 
+},
+{
+ "Location": "Northern America",
+"Time": 1959,
+"billions":    0.200931108 
+},
+{
+ "Location": "Northern America",
+"Time": 1960,
+"billions":    0.204351996 
+},
+{
+ "Location": "Northern America",
+"Time": 1961,
+"billions":    0.207654313 
+},
+{
+ "Location": "Northern America",
+"Time": 1962,
+"billions":    0.210820068 
+},
+{
+ "Location": "Northern America",
+"Time": 1963,
+"billions":    0.213842272 
+},
+{
+ "Location": "Northern America",
+"Time": 1964,
+"billions":    0.216722881 
+},
+{
+ "Location": "Northern America",
+"Time": 1965,
+"billions":    0.219466771 
+},
+{
+ "Location": "Northern America",
+"Time": 1966,
+"billions":    0.222067119 
+},
+{
+ "Location": "Northern America",
+"Time": 1967,
+"billions":    0.224527908 
+},
+{
+ "Location": "Northern America",
+"Time": 1968,
+"billions":     0.22688087 
+},
+{
+ "Location": "Northern America",
+"Time": 1969,
+"billions":    0.229169484 
+},
+{
+ "Location": "Northern America",
+"Time": 1970,
+"billions":    0.231429044 
+},
+{
+ "Location": "Northern America",
+"Time": 1971,
+"billions":     0.23367221 
+},
+{
+ "Location": "Northern America",
+"Time": 1972,
+"billions":    0.235903189 
+},
+{
+ "Location": "Northern America",
+"Time": 1973,
+"billions":    0.238138624 
+},
+{
+ "Location": "Northern America",
+"Time": 1974,
+"billions":    0.240394826 
+},
+{
+ "Location": "Northern America",
+"Time": 1975,
+"billions":    0.242684621 
+},
+{
+ "Location": "Northern America",
+"Time": 1976,
+"billions":    0.245020625 
+},
+{
+ "Location": "Northern America",
+"Time": 1977,
+"billions":    0.247407593 
+},
+{
+ "Location": "Northern America",
+"Time": 1978,
+"billions":    0.249839959 
+},
+{
+ "Location": "Northern America",
+"Time": 1979,
+"billions":    0.252306402 
+},
+{
+ "Location": "Northern America",
+"Time": 1980,
+"billions":    0.254799659 
+},
+{
+ "Location": "Northern America",
+"Time": 1981,
+"billions":    0.257318299 
+},
+{
+ "Location": "Northern America",
+"Time": 1982,
+"billions":    0.259869244 
+},
+{
+ "Location": "Northern America",
+"Time": 1983,
+"billions":    0.262463016 
+},
+{
+ "Location": "Northern America",
+"Time": 1984,
+"billions":    0.265113697 
+},
+{
+ "Location": "Northern America",
+"Time": 1985,
+"billions":    0.267830587 
+},
+{
+ "Location": "Northern America",
+"Time": 1986,
+"billions":    0.270623653 
+},
+{
+ "Location": "Northern America",
+"Time": 1987,
+"billions":     0.27348901 
+},
+{
+ "Location": "Northern America",
+"Time": 1988,
+"billions":     0.27640576 
+},
+{
+ "Location": "Northern America",
+"Time": 1989,
+"billions":    0.279344263 
+},
+{
+ "Location": "Northern America",
+"Time": 1990,
+"billions":    0.282286117 
+},
+{
+ "Location": "Northern America",
+"Time": 1991,
+"billions":    0.285208689 
+},
+{
+ "Location": "Northern America",
+"Time": 1992,
+"billions":    0.288124158 
+},
+{
+ "Location": "Northern America",
+"Time": 1993,
+"billions":    0.291089649 
+},
+{
+ "Location": "Northern America",
+"Time": 1994,
+"billions":     0.29418453 
+},
+{
+ "Location": "Northern America",
+"Time": 1995,
+"billions":     0.29745807 
+},
+{
+ "Location": "Northern America",
+"Time": 1996,
+"billions":    0.300941749 
+},
+{
+ "Location": "Northern America",
+"Time": 1997,
+"billions":    0.304597143 
+},
+{
+ "Location": "Northern America",
+"Time": 1998,
+"billions":    0.308318687 
+},
+{
+ "Location": "Northern America",
+"Time": 1999,
+"billions":    0.311959685 
+},
+{
+ "Location": "Northern America",
+"Time": 2000,
+"billions":    0.315417102 
+},
+{
+ "Location": "Northern America",
+"Time": 2001,
+"billions":    0.318645129 
+},
+{
+ "Location": "Northern America",
+"Time": 2002,
+"billions":    0.321680084 
+},
+{
+ "Location": "Northern America",
+"Time": 2003,
+"billions":    0.324601229 
+},
+{
+ "Location": "Northern America",
+"Time": 2004,
+"billions":    0.327528304 
+},
+{
+ "Location": "Northern America",
+"Time": 2005,
+"billions":    0.330546117 
+},
+{
+ "Location": "Northern America",
+"Time": 2006,
+"billions":    0.333681276 
+},
+{
+ "Location": "Northern America",
+"Time": 2007,
+"billions":    0.336899978 
+},
+{
+ "Location": "Northern America",
+"Time": 2008,
+"billions":    0.340154465 
+},
+{
+ "Location": "Northern America",
+"Time": 2009,
+"billions":     0.34337195 
+},
+{
+ "Location": "Northern America",
+"Time": 2010,
+"billions":      0.3465009 
+},
+{
+ "Location": "Northern America",
+"Time": 2011,
+"billions":     0.34952692 
+},
+{
+ "Location": "Northern America",
+"Time": 2012,
+"billions":    0.352471288 
+},
+{
+ "Location": "Northern America",
+"Time": 2013,
+"billions":    0.355360791 
+},
+{
+ "Location": "Northern America",
+"Time": 2014,
+"billions":    0.358236409 
+},
+{
+ "Location": "Northern America",
+"Time": 2015,
+"billions":    0.361127819 
+},
+{
+ "Location": "Northern America",
+"Time": 2016,
+"billions":    0.364041382 
+},
+{
+ "Location": "Northern America",
+"Time": 2017,
+"billions":    0.366966756 
+},
+{
+ "Location": "Northern America",
+"Time": 2018,
+"billions":    0.369896882 
+},
+{
+ "Location": "Northern America",
+"Time": 2019,
+"billions":    0.372819343 
+},
+{
+ "Location": "Northern America",
+"Time": 2020,
+"billions":    0.375724364 
+},
+{
+ "Location": "Northern America",
+"Time": 2021,
+"billions":    0.378609675 
+},
+{
+ "Location": "Northern America",
+"Time": 2022,
+"billions":    0.381476497 
+},
+{
+ "Location": "Northern America",
+"Time": 2023,
+"billions":    0.384322145 
+},
+{
+ "Location": "Northern America",
+"Time": 2024,
+"billions":    0.387144024 
+},
+{
+ "Location": "Northern America",
+"Time": 2025,
+"billions":    0.389939133 
+},
+{
+ "Location": "Northern America",
+"Time": 2026,
+"billions":    0.392705821 
+},
+{
+ "Location": "Northern America",
+"Time": 2027,
+"billions":    0.395440379 
+},
+{
+ "Location": "Northern America",
+"Time": 2028,
+"billions":    0.398135366 
+},
+{
+ "Location": "Northern America",
+"Time": 2029,
+"billions":    0.400781814 
+},
+{
+ "Location": "Northern America",
+"Time": 2030,
+"billions":    0.403373043 
+},
+{
+ "Location": "Northern America",
+"Time": 2031,
+"billions":     0.40590646 
+},
+{
+ "Location": "Northern America",
+"Time": 2032,
+"billions":    0.408382593 
+},
+{
+ "Location": "Northern America",
+"Time": 2033,
+"billions":    0.410802082 
+},
+{
+ "Location": "Northern America",
+"Time": 2034,
+"billions":    0.413166981 
+},
+{
+ "Location": "Northern America",
+"Time": 2035,
+"billions":    0.415479526 
+},
+{
+ "Location": "Northern America",
+"Time": 2036,
+"billions":    0.417740709 
+},
+{
+ "Location": "Northern America",
+"Time": 2037,
+"billions":    0.419952114 
+},
+{
+ "Location": "Northern America",
+"Time": 2038,
+"billions":     0.42211774 
+},
+{
+ "Location": "Northern America",
+"Time": 2039,
+"billions":    0.424242598 
+},
+{
+ "Location": "Northern America",
+"Time": 2040,
+"billions":    0.426331506 
+},
+{
+ "Location": "Northern America",
+"Time": 2041,
+"billions":     0.42838612 
+},
+{
+ "Location": "Northern America",
+"Time": 2042,
+"billions":    0.430409549 
+},
+{
+ "Location": "Northern America",
+"Time": 2043,
+"billions":    0.432409799 
+},
+{
+ "Location": "Northern America",
+"Time": 2044,
+"billions":    0.434396507 
+},
+{
+ "Location": "Northern America",
+"Time": 2045,
+"billions":    0.436376801 
+},
+{
+ "Location": "Northern America",
+"Time": 2046,
+"billions":    0.438355116 
+},
+{
+ "Location": "Northern America",
+"Time": 2047,
+"billions":    0.440331148 
+},
+{
+ "Location": "Northern America",
+"Time": 2048,
+"billions":    0.442301297 
+},
+{
+ "Location": "Northern America",
+"Time": 2049,
+"billions":    0.444259322 
+},
+{
+ "Location": "Northern America",
+"Time": 2050,
+"billions":    0.446200868 
+},
+{
+ "Location": "Northern America",
+"Time": 2051,
+"billions":    0.448125151 
+},
+{
+ "Location": "Northern America",
+"Time": 2052,
+"billions":    0.450034573 
+},
+{
+ "Location": "Northern America",
+"Time": 2053,
+"billions":    0.451931635 
+},
+{
+ "Location": "Northern America",
+"Time": 2054,
+"billions":    0.453819947 
+},
+{
+ "Location": "Northern America",
+"Time": 2055,
+"billions":     0.45570199 
+},
+{
+ "Location": "Northern America",
+"Time": 2056,
+"billions":    0.457577749 
+},
+{
+ "Location": "Northern America",
+"Time": 2057,
+"billions":    0.459445857 
+},
+{
+ "Location": "Northern America",
+"Time": 2058,
+"billions":    0.461305651 
+},
+{
+ "Location": "Northern America",
+"Time": 2059,
+"billions":     0.46315607 
+},
+{
+ "Location": "Northern America",
+"Time": 2060,
+"billions":    0.464995756 
+},
+{
+ "Location": "Northern America",
+"Time": 2061,
+"billions":    0.466823826 
+},
+{
+ "Location": "Northern America",
+"Time": 2062,
+"billions":    0.468638593 
+},
+{
+ "Location": "Northern America",
+"Time": 2063,
+"billions":    0.470436774 
+},
+{
+ "Location": "Northern America",
+"Time": 2064,
+"billions":    0.472214332 
+},
+{
+ "Location": "Northern America",
+"Time": 2065,
+"billions":    0.473967718 
+},
+{
+ "Location": "Northern America",
+"Time": 2066,
+"billions":    0.475695069 
+},
+{
+ "Location": "Northern America",
+"Time": 2067,
+"billions":    0.477394792 
+},
+{
+ "Location": "Northern America",
+"Time": 2068,
+"billions":     0.47906396 
+},
+{
+ "Location": "Northern America",
+"Time": 2069,
+"billions":    0.480699453 
+},
+{
+ "Location": "Northern America",
+"Time": 2070,
+"billions":    0.482298722 
+},
+{
+ "Location": "Northern America",
+"Time": 2071,
+"billions":    0.483860243 
+},
+{
+ "Location": "Northern America",
+"Time": 2072,
+"billions":    0.485383133 
+},
+{
+ "Location": "Northern America",
+"Time": 2073,
+"billions":    0.486866436 
+},
+{
+ "Location": "Northern America",
+"Time": 2074,
+"billions":    0.488309511 
+},
+{
+ "Location": "Northern America",
+"Time": 2075,
+"billions":    0.489712011 
+},
+{
+ "Location": "Northern America",
+"Time": 2076,
+"billions":    0.491073319 
+},
+{
+ "Location": "Northern America",
+"Time": 2077,
+"billions":    0.492393529 
+},
+{
+ "Location": "Northern America",
+"Time": 2078,
+"billions":    0.493674043 
+},
+{
+ "Location": "Northern America",
+"Time": 2079,
+"billions":    0.494916901 
+},
+{
+ "Location": "Northern America",
+"Time": 2080,
+"billions":    0.496123783 
+},
+{
+ "Location": "Northern America",
+"Time": 2081,
+"billions":    0.497295034 
+},
+{
+ "Location": "Northern America",
+"Time": 2082,
+"billions":    0.498430802 
+},
+{
+ "Location": "Northern America",
+"Time": 2083,
+"billions":    0.499532337 
+},
+{
+ "Location": "Northern America",
+"Time": 2084,
+"billions":    0.500601074 
+},
+{
+ "Location": "Northern America",
+"Time": 2085,
+"billions":    0.501638027 
+},
+{
+ "Location": "Northern America",
+"Time": 2086,
+"billions":    0.502643512 
+},
+{
+ "Location": "Northern America",
+"Time": 2087,
+"billions":    0.503617308 
+},
+{
+ "Location": "Northern America",
+"Time": 2088,
+"billions":    0.504559145 
+},
+{
+ "Location": "Northern America",
+"Time": 2089,
+"billions":     0.50546847 
+},
+{
+ "Location": "Northern America",
+"Time": 2090,
+"billions":    0.506344641 
+},
+{
+ "Location": "Northern America",
+"Time": 2091,
+"billions":    0.507186967 
+},
+{
+ "Location": "Northern America",
+"Time": 2092,
+"billions":    0.507994692 
+},
+{
+ "Location": "Northern America",
+"Time": 2093,
+"billions":    0.508766955 
+},
+{
+ "Location": "Northern America",
+"Time": 2094,
+"billions":    0.509502724 
+},
+{
+ "Location": "Northern America",
+"Time": 2095,
+"billions":    0.510200755 
+},
+{
+ "Location": "Northern America",
+"Time": 2096,
+"billions":    0.510859569 
+},
+{
+ "Location": "Northern America",
+"Time": 2097,
+"billions":    0.511477447 
+},
+{
+ "Location": "Northern America",
+"Time": 2098,
+"billions":    0.512052418 
+},
+{
+ "Location": "Northern America",
+"Time": 2099,
+"billions":    0.512582276 
+},
+{
+ "Location": "Europe",
+"Time": 1950,
+"billions":    0.549043373 
+},
+{
+ "Location": "Europe",
+"Time": 1951,
+"billions":    0.554239112 
+},
+{
+ "Location": "Europe",
+"Time": 1952,
+"billions":    0.559755611 
+},
+{
+ "Location": "Europe",
+"Time": 1953,
+"billions":    0.565441151 
+},
+{
+ "Location": "Europe",
+"Time": 1954,
+"billions":    0.571183982 
+},
+{
+ "Location": "Europe",
+"Time": 1955,
+"billions":    0.576912321 
+},
+{
+ "Location": "Europe",
+"Time": 1956,
+"billions":    0.582596495 
+},
+{
+ "Location": "Europe",
+"Time": 1957,
+"billions":    0.588246806 
+},
+{
+ "Location": "Europe",
+"Time": 1958,
+"billions":    0.593907162 
+},
+{
+ "Location": "Europe",
+"Time": 1959,
+"billions":      0.5996445 
+},
+{
+ "Location": "Europe",
+"Time": 1960,
+"billions":    0.605516913 
+},
+{
+ "Location": "Europe",
+"Time": 1961,
+"billions":    0.611539809 
+},
+{
+ "Location": "Europe",
+"Time": 1962,
+"billions":    0.617656137 
+},
+{
+ "Location": "Europe",
+"Time": 1963,
+"billions":    0.623723702 
+},
+{
+ "Location": "Europe",
+"Time": 1964,
+"billions":    0.629551212 
+},
+{
+ "Location": "Europe",
+"Time": 1965,
+"billions":    0.635004324 
+},
+{
+ "Location": "Europe",
+"Time": 1966,
+"billions":    0.640020908 
+},
+{
+ "Location": "Europe",
+"Time": 1967,
+"billions":    0.644645146 
+},
+{
+ "Location": "Europe",
+"Time": 1968,
+"billions":    0.648980326 
+},
+{
+ "Location": "Europe",
+"Time": 1969,
+"billions":    0.653183695 
+},
+{
+ "Location": "Europe",
+"Time": 1970,
+"billions":    0.657369142 
+},
+{
+ "Location": "Europe",
+"Time": 1971,
+"billions":    0.661569309 
+},
+{
+ "Location": "Europe",
+"Time": 1972,
+"billions":    0.665746632 
+},
+{
+ "Location": "Europe",
+"Time": 1973,
+"billions":    0.669861415 
+},
+{
+ "Location": "Europe",
+"Time": 1974,
+"billions":    0.673848291 
+},
+{
+ "Location": "Europe",
+"Time": 1975,
+"billions":    0.677661531 
+},
+{
+ "Location": "Europe",
+"Time": 1976,
+"billions":    0.681297669 
+},
+{
+ "Location": "Europe",
+"Time": 1977,
+"billions":    0.684781492 
+},
+{
+ "Location": "Europe",
+"Time": 1978,
+"billions":    0.688129163 
+},
+{
+ "Location": "Europe",
+"Time": 1979,
+"billions":    0.691365103 
+},
+{
+ "Location": "Europe",
+"Time": 1980,
+"billions":    0.694510142 
+},
+{
+ "Location": "Europe",
+"Time": 1981,
+"billions":    0.697550267 
+},
+{
+ "Location": "Europe",
+"Time": 1982,
+"billions":    0.700485326 
+},
+{
+ "Location": "Europe",
+"Time": 1983,
+"billions":    0.703364979 
+},
+{
+ "Location": "Europe",
+"Time": 1984,
+"billions":    0.706254186 
+},
+{
+ "Location": "Europe",
+"Time": 1985,
+"billions":    0.709189446 
+},
+{
+ "Location": "Europe",
+"Time": 1986,
+"billions":    0.712193564 
+},
+{
+ "Location": "Europe",
+"Time": 1987,
+"billions":    0.715224017 
+},
+{
+ "Location": "Europe",
+"Time": 1988,
+"billions":    0.718170624 
+},
+{
+ "Location": "Europe",
+"Time": 1989,
+"billions":    0.720882634 
+},
+{
+ "Location": "Europe",
+"Time": 1990,
+"billions":    0.723248103 
+},
+{
+ "Location": "Europe",
+"Time": 1991,
+"billions":    0.725254922 
+},
+{
+ "Location": "Europe",
+"Time": 1992,
+"billions":    0.726928088 
+},
+{
+ "Location": "Europe",
+"Time": 1993,
+"billions":    0.728242778 
+},
+{
+ "Location": "Europe",
+"Time": 1994,
+"billions":    0.729179476 
+},
+{
+ "Location": "Europe",
+"Time": 1995,
+"billions":    0.729743075 
+},
+{
+ "Location": "Europe",
+"Time": 1996,
+"billions":     0.72991075 
+},
+{
+ "Location": "Europe",
+"Time": 1997,
+"billions":    0.729735736 
+},
+{
+ "Location": "Europe",
+"Time": 1998,
+"billions":    0.729395819 
+},
+{
+ "Location": "Europe",
+"Time": 1999,
+"billions":    0.729127234 
+},
+{
+ "Location": "Europe",
+"Time": 2000,
+"billions":    0.729105436 
+},
+{
+ "Location": "Europe",
+"Time": 2001,
+"billions":    0.729384018 
+},
+{
+ "Location": "Europe",
+"Time": 2002,
+"billions":    0.729934262 
+},
+{
+ "Location": "Europe",
+"Time": 2003,
+"billions":    0.730743749 
+},
+{
+ "Location": "Europe",
+"Time": 2004,
+"billions":    0.731770121 
+},
+{
+ "Location": "Europe",
+"Time": 2005,
+"billions":    0.732969545 
+},
+{
+ "Location": "Europe",
+"Time": 2006,
+"billions":    0.734361147 
+},
+{
+ "Location": "Europe",
+"Time": 2007,
+"billions":    0.735928893 
+},
+{
+ "Location": "Europe",
+"Time": 2008,
+"billions":    0.737546289 
+},
+{
+ "Location": "Europe",
+"Time": 2009,
+"billions":    0.739046575 
+},
+{
+ "Location": "Europe",
+"Time": 2010,
+"billions":    0.740308364 
+},
+{
+ "Location": "Europe",
+"Time": 2011,
+"billions":    0.741275509 
+},
+{
+ "Location": "Europe",
+"Time": 2012,
+"billions":    0.741971223 
+},
+{
+ "Location": "Europe",
+"Time": 2013,
+"billions":     0.74245217 
+},
+{
+ "Location": "Europe",
+"Time": 2014,
+"billions":    0.742813221 
+},
+{
+ "Location": "Europe",
+"Time": 2015,
+"billions":    0.743122816 
+},
+{
+ "Location": "Europe",
+"Time": 2016,
+"billions":     0.74339314 
+},
+{
+ "Location": "Europe",
+"Time": 2017,
+"billions":    0.743595721 
+},
+{
+ "Location": "Europe",
+"Time": 2018,
+"billions":    0.743711517 
+},
+{
+ "Location": "Europe",
+"Time": 2019,
+"billions":      0.7437097 
+},
+{
+ "Location": "Europe",
+"Time": 2020,
+"billions":    0.743569194 
+},
+{
+ "Location": "Europe",
+"Time": 2021,
+"billions":    0.743288156 
+},
+{
+ "Location": "Europe",
+"Time": 2022,
+"billions":    0.742879523 
+},
+{
+ "Location": "Europe",
+"Time": 2023,
+"billions":    0.742354721 
+},
+{
+ "Location": "Europe",
+"Time": 2024,
+"billions":    0.741730297 
+},
+{
+ "Location": "Europe",
+"Time": 2025,
+"billions":    0.741020032 
+},
+{
+ "Location": "Europe",
+"Time": 2026,
+"billions":    0.740229611 
+},
+{
+ "Location": "Europe",
+"Time": 2027,
+"billions":    0.739361551 
+},
+{
+ "Location": "Europe",
+"Time": 2028,
+"billions":    0.738423063 
+},
+{
+ "Location": "Europe",
+"Time": 2029,
+"billions":    0.737421445 
+},
+{
+ "Location": "Europe",
+"Time": 2030,
+"billions":    0.736363555 
+},
+{
+ "Location": "Europe",
+"Time": 2031,
+"billions":    0.735254402 
+},
+{
+ "Location": "Europe",
+"Time": 2032,
+"billions":    0.734099318 
+},
+{
+ "Location": "Europe",
+"Time": 2033,
+"billions":    0.732905543 
+},
+{
+ "Location": "Europe",
+"Time": 2034,
+"billions":    0.731680684 
+},
+{
+ "Location": "Europe",
+"Time": 2035,
+"billions":    0.730430852 
+},
+{
+ "Location": "Europe",
+"Time": 2036,
+"billions":    0.729159876 
+},
+{
+ "Location": "Europe",
+"Time": 2037,
+"billions":    0.727869513 
+},
+{
+ "Location": "Europe",
+"Time": 2038,
+"billions":     0.72656078 
+},
+{
+ "Location": "Europe",
+"Time": 2039,
+"billions":    0.725233482 
+},
+{
+ "Location": "Europe",
+"Time": 2040,
+"billions":    0.723887158 
+},
+{
+ "Location": "Europe",
+"Time": 2041,
+"billions":      0.7225224 
+},
+{
+ "Location": "Europe",
+"Time": 2042,
+"billions":    0.721139055 
+},
+{
+ "Location": "Europe",
+"Time": 2043,
+"billions":    0.719734588 
+},
+{
+ "Location": "Europe",
+"Time": 2044,
+"billions":    0.718305458 
+},
+{
+ "Location": "Europe",
+"Time": 2045,
+"billions":    0.716848379 
+},
+{
+ "Location": "Europe",
+"Time": 2046,
+"billions":     0.71536348 
+},
+{
+ "Location": "Europe",
+"Time": 2047,
+"billions":    0.713849503 
+},
+{
+ "Location": "Europe",
+"Time": 2048,
+"billions":    0.712300243 
+},
+{
+ "Location": "Europe",
+"Time": 2049,
+"billions":     0.71070787 
+},
+{
+ "Location": "Europe",
+"Time": 2050,
+"billions":    0.709067211 
+},
+{
+ "Location": "Europe",
+"Time": 2051,
+"billions":    0.707377445 
+},
+{
+ "Location": "Europe",
+"Time": 2052,
+"billions":     0.70564139 
+},
+{
+ "Location": "Europe",
+"Time": 2053,
+"billions":    0.703862371 
+},
+{
+ "Location": "Europe",
+"Time": 2054,
+"billions":    0.702045447 
+},
+{
+ "Location": "Europe",
+"Time": 2055,
+"billions":    0.700195788 
+},
+{
+ "Location": "Europe",
+"Time": 2056,
+"billions":    0.698316338 
+},
+{
+ "Location": "Europe",
+"Time": 2057,
+"billions":    0.696411019 
+},
+{
+ "Location": "Europe",
+"Time": 2058,
+"billions":    0.694487578 
+},
+{
+ "Location": "Europe",
+"Time": 2059,
+"billions":    0.692555248 
+},
+{
+ "Location": "Europe",
+"Time": 2060,
+"billions":    0.690622327 
+},
+{
+ "Location": "Europe",
+"Time": 2061,
+"billions":     0.68869391 
+},
+{
+ "Location": "Europe",
+"Time": 2062,
+"billions":    0.686774641 
+},
+{
+ "Location": "Europe",
+"Time": 2063,
+"billions":    0.684871862 
+},
+{
+ "Location": "Europe",
+"Time": 2064,
+"billions":    0.682993317 
+},
+{
+ "Location": "Europe",
+"Time": 2065,
+"billions":    0.681145679 
+},
+{
+ "Location": "Europe",
+"Time": 2066,
+"billions":    0.679333405 
+},
+{
+ "Location": "Europe",
+"Time": 2067,
+"billions":    0.677559775 
+},
+{
+ "Location": "Europe",
+"Time": 2068,
+"billions":    0.675828478 
+},
+{
+ "Location": "Europe",
+"Time": 2069,
+"billions":    0.674142632 
+},
+{
+ "Location": "Europe",
+"Time": 2070,
+"billions":    0.672504684 
+},
+{
+ "Location": "Europe",
+"Time": 2071,
+"billions":     0.67091681 
+},
+{
+ "Location": "Europe",
+"Time": 2072,
+"billions":    0.669380099 
+},
+{
+ "Location": "Europe",
+"Time": 2073,
+"billions":     0.66789415 
+},
+{
+ "Location": "Europe",
+"Time": 2074,
+"billions":    0.666457632 
+},
+{
+ "Location": "Europe",
+"Time": 2075,
+"billions":    0.665069191 
+},
+{
+ "Location": "Europe",
+"Time": 2076,
+"billions":    0.663728223 
+},
+{
+ "Location": "Europe",
+"Time": 2077,
+"billions":    0.662434061 
+},
+{
+ "Location": "Europe",
+"Time": 2078,
+"billions":    0.661184807 
+},
+{
+ "Location": "Europe",
+"Time": 2079,
+"billions":    0.659978111 
+},
+{
+ "Location": "Europe",
+"Time": 2080,
+"billions":    0.658811548 
+},
+{
+ "Location": "Europe",
+"Time": 2081,
+"billions":    0.657682655 
+},
+{
+ "Location": "Europe",
+"Time": 2082,
+"billions":     0.65658904 
+},
+{
+ "Location": "Europe",
+"Time": 2083,
+"billions":    0.655528174 
+},
+{
+ "Location": "Europe",
+"Time": 2084,
+"billions":    0.654497359 
+},
+{
+ "Location": "Europe",
+"Time": 2085,
+"billions":    0.653493537 
+},
+{
+ "Location": "Europe",
+"Time": 2086,
+"billions":     0.65251399 
+},
+{
+ "Location": "Europe",
+"Time": 2087,
+"billions":     0.65155484 
+},
+{
+ "Location": "Europe",
+"Time": 2088,
+"billions":    0.650610435 
+},
+{
+ "Location": "Europe",
+"Time": 2089,
+"billions":    0.649674205 
+},
+{
+ "Location": "Europe",
+"Time": 2090,
+"billions":    0.648740397 
+},
+{
+ "Location": "Europe",
+"Time": 2091,
+"billions":    0.647804667 
+},
+{
+ "Location": "Europe",
+"Time": 2092,
+"billions":    0.646863851 
+},
+{
+ "Location": "Europe",
+"Time": 2093,
+"billions":    0.645915492 
+},
+{
+ "Location": "Europe",
+"Time": 2094,
+"billions":    0.644957312 
+},
+{
+ "Location": "Europe",
+"Time": 2095,
+"billions":    0.643986688 
+},
+{
+ "Location": "Europe",
+"Time": 2096,
+"billions":    0.643000494 
+},
+{
+ "Location": "Europe",
+"Time": 2097,
+"billions":    0.641994976 
+},
+{
+ "Location": "Europe",
+"Time": 2098,
+"billions":    0.640965773 
+},
+{
+ "Location": "Europe",
+"Time": 2099,
+"billions":    0.639907866 
+},
+{
+ "Location": "Oceania",
+"Time": 1950,
+"billions":    0.012674996 
+},
+{
+ "Location": "Oceania",
+"Time": 1951,
+"billions":    0.012996119 
+},
+{
+ "Location": "Oceania",
+"Time": 1952,
+"billions":    0.013294045 
+},
+{
+ "Location": "Oceania",
+"Time": 1953,
+"billions":    0.013582321 
+},
+{
+ "Location": "Oceania",
+"Time": 1954,
+"billions":    0.013871149 
+},
+{
+ "Location": "Oceania",
+"Time": 1955,
+"billions":    0.014167413 
+},
+{
+ "Location": "Oceania",
+"Time": 1956,
+"billions":    0.014474497 
+},
+{
+ "Location": "Oceania",
+"Time": 1957,
+"billions":    0.014792451 
+},
+{
+ "Location": "Oceania",
+"Time": 1958,
+"billions":    0.015118458 
+},
+{
+ "Location": "Oceania",
+"Time": 1959,
+"billions":    0.015447627 
+},
+{
+ "Location": "Oceania",
+"Time": 1960,
+"billions":    0.015775319 
+},
+{
+ "Location": "Oceania",
+"Time": 1961,
+"billions":    0.016099687 
+},
+{
+ "Location": "Oceania",
+"Time": 1962,
+"billions":    0.016423849 
+},
+{
+ "Location": "Oceania",
+"Time": 1963,
+"billions":    0.016756816 
+},
+{
+ "Location": "Oceania",
+"Time": 1964,
+"billions":    0.017110859 
+},
+{
+ "Location": "Oceania",
+"Time": 1965,
+"billions":    0.017493657 
+},
+{
+ "Location": "Oceania",
+"Time": 1966,
+"billions":    0.017908925 
+},
+{
+ "Location": "Oceania",
+"Time": 1967,
+"billions":    0.018350773 
+},
+{
+ "Location": "Oceania",
+"Time": 1968,
+"billions":    0.018805388 
+},
+{
+ "Location": "Oceania",
+"Time": 1969,
+"billions":    0.019253477 
+},
+{
+ "Location": "Oceania",
+"Time": 1970,
+"billions":    0.019680715 
+},
+{
+ "Location": "Oceania",
+"Time": 1971,
+"billions":    0.020083988 
+},
+{
+ "Location": "Oceania",
+"Time": 1972,
+"billions":    0.020466324 
+},
+{
+ "Location": "Oceania",
+"Time": 1973,
+"billions":    0.020827355 
+},
+{
+ "Location": "Oceania",
+"Time": 1974,
+"billions":    0.021168403 
+},
+{
+ "Location": "Oceania",
+"Time": 1975,
+"billions":    0.021491659 
+},
+{
+ "Location": "Oceania",
+"Time": 1976,
+"billions":    0.021795028 
+},
+{
+ "Location": "Oceania",
+"Time": 1977,
+"billions":     0.02208082 
+},
+{
+ "Location": "Oceania",
+"Time": 1978,
+"billions":    0.022361378 
+},
+{
+ "Location": "Oceania",
+"Time": 1979,
+"billions":    0.022653091 
+},
+{
+ "Location": "Oceania",
+"Time": 1980,
+"billions":    0.022967861 
+},
+{
+ "Location": "Oceania",
+"Time": 1981,
+"billions":    0.023310323 
+},
+{
+ "Location": "Oceania",
+"Time": 1982,
+"billions":    0.023677775 
+},
+{
+ "Location": "Oceania",
+"Time": 1983,
+"billions":    0.024065533 
+},
+{
+ "Location": "Oceania",
+"Time": 1984,
+"billions":    0.024465608 
+},
+{
+ "Location": "Oceania",
+"Time": 1985,
+"billions":    0.024871762 
+},
+{
+ "Location": "Oceania",
+"Time": 1986,
+"billions":    0.025283593 
+},
+{
+ "Location": "Oceania",
+"Time": 1987,
+"billions":     0.02570229 
+},
+{
+ "Location": "Oceania",
+"Time": 1988,
+"billions":    0.026124907 
+},
+{
+ "Location": "Oceania",
+"Time": 1989,
+"billions":    0.026548065 
+},
+{
+ "Location": "Oceania",
+"Time": 1990,
+"billions":    0.026969366 
+},
+{
+ "Location": "Oceania",
+"Time": 1991,
+"billions":    0.027387572 
+},
+{
+ "Location": "Oceania",
+"Time": 1992,
+"billions":    0.027803112 
+},
+{
+ "Location": "Oceania",
+"Time": 1993,
+"billions":    0.028217498 
+},
+{
+ "Location": "Oceania",
+"Time": 1994,
+"billions":    0.028633199 
+},
+{
+ "Location": "Oceania",
+"Time": 1995,
+"billions":    0.029052283 
+},
+{
+ "Location": "Oceania",
+"Time": 1996,
+"billions":    0.029476148 
+},
+{
+ "Location": "Oceania",
+"Time": 1997,
+"billions":    0.029905195 
+},
+{
+ "Location": "Oceania",
+"Time": 1998,
+"billions":    0.030339491 
+},
+{
+ "Location": "Oceania",
+"Time": 1999,
+"billions":    0.030778776 
+},
+{
+ "Location": "Oceania",
+"Time": 2000,
+"billions":    0.031223602 
+},
+{
+ "Location": "Oceania",
+"Time": 2001,
+"billions":    0.031671638 
+},
+{
+ "Location": "Oceania",
+"Time": 2002,
+"billions":    0.032124939 
+},
+{
+ "Location": "Oceania",
+"Time": 2003,
+"billions":    0.032593397 
+},
+{
+ "Location": "Oceania",
+"Time": 2004,
+"billions":    0.033090149 
+},
+{
+ "Location": "Oceania",
+"Time": 2005,
+"billions":    0.033623334 
+},
+{
+ "Location": "Oceania",
+"Time": 2006,
+"billions":    0.034198076 
+},
+{
+ "Location": "Oceania",
+"Time": 2007,
+"billions":    0.034808193 
+},
+{
+ "Location": "Oceania",
+"Time": 2008,
+"billions":    0.035436543 
+},
+{
+ "Location": "Oceania",
+"Time": 2009,
+"billions":    0.036059207 
+},
+{
+ "Location": "Oceania",
+"Time": 2010,
+"billions":    0.036658945 
+},
+{
+ "Location": "Oceania",
+"Time": 2011,
+"billions":    0.037229214 
+},
+{
+ "Location": "Oceania",
+"Time": 2012,
+"billions":    0.037774788 
+},
+{
+ "Location": "Oceania",
+"Time": 2013,
+"billions":     0.03830362 
+},
+{
+ "Location": "Oceania",
+"Time": 2014,
+"billions":    0.038828644 
+},
+{
+ "Location": "Oceania",
+"Time": 2015,
+"billions":     0.03935927 
+},
+{
+ "Location": "Oceania",
+"Time": 2016,
+"billions":    0.039897033 
+},
+{
+ "Location": "Oceania",
+"Time": 2017,
+"billions":    0.040438452 
+},
+{
+ "Location": "Oceania",
+"Time": 2018,
+"billions":    0.040982111 
+},
+{
+ "Location": "Oceania",
+"Time": 2019,
+"billions":    0.041525307 
+},
+{
+ "Location": "Oceania",
+"Time": 2020,
+"billions":     0.04206602 
+},
+{
+ "Location": "Oceania",
+"Time": 2021,
+"billions":    0.042604222 
+},
+{
+ "Location": "Oceania",
+"Time": 2022,
+"billions":    0.043140623 
+},
+{
+ "Location": "Oceania",
+"Time": 2023,
+"billions":     0.04367469 
+},
+{
+ "Location": "Oceania",
+"Time": 2024,
+"billions":    0.044205839 
+},
+{
+ "Location": "Oceania",
+"Time": 2025,
+"billions":    0.044733599 
+},
+{
+ "Location": "Oceania",
+"Time": 2026,
+"billions":     0.04525771 
+},
+{
+ "Location": "Oceania",
+"Time": 2027,
+"billions":    0.045778107 
+},
+{
+ "Location": "Oceania",
+"Time": 2028,
+"billions":    0.046294755 
+},
+{
+ "Location": "Oceania",
+"Time": 2029,
+"billions":    0.046807755 
+},
+{
+ "Location": "Oceania",
+"Time": 2030,
+"billions":    0.047317181 
+},
+{
+ "Location": "Oceania",
+"Time": 2031,
+"billions":    0.047822984 
+},
+{
+ "Location": "Oceania",
+"Time": 2032,
+"billions":    0.048325159 
+},
+{
+ "Location": "Oceania",
+"Time": 2033,
+"billions":    0.048823874 
+},
+{
+ "Location": "Oceania",
+"Time": 2034,
+"billions":    0.049319365 
+},
+{
+ "Location": "Oceania",
+"Time": 2035,
+"billions":    0.049811846 
+},
+{
+ "Location": "Oceania",
+"Time": 2036,
+"billions":    0.050301338 
+},
+{
+ "Location": "Oceania",
+"Time": 2037,
+"billions":    0.050787887 
+},
+{
+ "Location": "Oceania",
+"Time": 2038,
+"billions":    0.051271696 
+},
+{
+ "Location": "Oceania",
+"Time": 2039,
+"billions":     0.05175302 
+},
+{
+ "Location": "Oceania",
+"Time": 2040,
+"billions":    0.052232016 
+},
+{
+ "Location": "Oceania",
+"Time": 2041,
+"billions":    0.052708566 
+},
+{
+ "Location": "Oceania",
+"Time": 2042,
+"billions":    0.053182557 
+},
+{
+ "Location": "Oceania",
+"Time": 2043,
+"billions":    0.053654127 
+},
+{
+ "Location": "Oceania",
+"Time": 2044,
+"billions":    0.054123461 
+},
+{
+ "Location": "Oceania",
+"Time": 2045,
+"billions":    0.054590541 
+},
+{
+ "Location": "Oceania",
+"Time": 2046,
+"billions":    0.055055387 
+},
+{
+ "Location": "Oceania",
+"Time": 2047,
+"billions":     0.05551749 
+},
+{
+ "Location": "Oceania",
+"Time": 2048,
+"billions":    0.055975666 
+},
+{
+ "Location": "Oceania",
+"Time": 2049,
+"billions":    0.056428367 
+},
+{
+ "Location": "Oceania",
+"Time": 2050,
+"billions":     0.05687439 
+},
+{
+ "Location": "Oceania",
+"Time": 2051,
+"billions":    0.057313225 
+},
+{
+ "Location": "Oceania",
+"Time": 2052,
+"billions":     0.05774486 
+},
+{
+ "Location": "Oceania",
+"Time": 2053,
+"billions":    0.058169247 
+},
+{
+ "Location": "Oceania",
+"Time": 2054,
+"billions":    0.058586523 
+},
+{
+ "Location": "Oceania",
+"Time": 2055,
+"billions":    0.058996782 
+},
+{
+ "Location": "Oceania",
+"Time": 2056,
+"billions":    0.059399864 
+},
+{
+ "Location": "Oceania",
+"Time": 2057,
+"billions":    0.059795599 
+},
+{
+ "Location": "Oceania",
+"Time": 2058,
+"billions":     0.06018407 
+},
+{
+ "Location": "Oceania",
+"Time": 2059,
+"billions":    0.060565426 
+},
+{
+ "Location": "Oceania",
+"Time": 2060,
+"billions":    0.060939796 
+},
+{
+ "Location": "Oceania",
+"Time": 2061,
+"billions":    0.061307155 
+},
+{
+ "Location": "Oceania",
+"Time": 2062,
+"billions":    0.061667479 
+},
+{
+ "Location": "Oceania",
+"Time": 2063,
+"billions":    0.062020886 
+},
+{
+ "Location": "Oceania",
+"Time": 2064,
+"billions":    0.062367523 
+},
+{
+ "Location": "Oceania",
+"Time": 2065,
+"billions":    0.062707489 
+},
+{
+ "Location": "Oceania",
+"Time": 2066,
+"billions":    0.063040792 
+},
+{
+ "Location": "Oceania",
+"Time": 2067,
+"billions":    0.063367355 
+},
+{
+ "Location": "Oceania",
+"Time": 2068,
+"billions":    0.063687058 
+},
+{
+ "Location": "Oceania",
+"Time": 2069,
+"billions":    0.063999759 
+},
+{
+ "Location": "Oceania",
+"Time": 2070,
+"billions":    0.064305306 
+},
+{
+ "Location": "Oceania",
+"Time": 2071,
+"billions":    0.064603597 
+},
+{
+ "Location": "Oceania",
+"Time": 2072,
+"billions":    0.064894541 
+},
+{
+ "Location": "Oceania",
+"Time": 2073,
+"billions":    0.065177993 
+},
+{
+ "Location": "Oceania",
+"Time": 2074,
+"billions":    0.065453821 
+},
+{
+ "Location": "Oceania",
+"Time": 2075,
+"billions":    0.065721862 
+},
+{
+ "Location": "Oceania",
+"Time": 2076,
+"billions":    0.065982054 
+},
+{
+ "Location": "Oceania",
+"Time": 2077,
+"billions":    0.066234252 
+},
+{
+ "Location": "Oceania",
+"Time": 2078,
+"billions":    0.066478121 
+},
+{
+ "Location": "Oceania",
+"Time": 2079,
+"billions":    0.066713269 
+},
+{
+ "Location": "Oceania",
+"Time": 2080,
+"billions":    0.066939412 
+},
+{
+ "Location": "Oceania",
+"Time": 2081,
+"billions":     0.06715639 
+},
+{
+ "Location": "Oceania",
+"Time": 2082,
+"billions":    0.067364246 
+},
+{
+ "Location": "Oceania",
+"Time": 2083,
+"billions":    0.067563121 
+},
+{
+ "Location": "Oceania",
+"Time": 2084,
+"billions":    0.067753249 
+},
+{
+ "Location": "Oceania",
+"Time": 2085,
+"billions":    0.067934815 
+},
+{
+ "Location": "Oceania",
+"Time": 2086,
+"billions":    0.068107822 
+},
+{
+ "Location": "Oceania",
+"Time": 2087,
+"billions":    0.068272244 
+},
+{
+ "Location": "Oceania",
+"Time": 2088,
+"billions":    0.068428206 
+},
+{
+ "Location": "Oceania",
+"Time": 2089,
+"billions":    0.068575862 
+},
+{
+ "Location": "Oceania",
+"Time": 2090,
+"billions":    0.068715329 
+},
+{
+ "Location": "Oceania",
+"Time": 2091,
+"billions":    0.068846627 
+},
+{
+ "Location": "Oceania",
+"Time": 2092,
+"billions":     0.06896972 
+},
+{
+ "Location": "Oceania",
+"Time": 2093,
+"billions":    0.069084528 
+},
+{
+ "Location": "Oceania",
+"Time": 2094,
+"billions":    0.069190944 
+},
+{
+ "Location": "Oceania",
+"Time": 2095,
+"billions":    0.069288871 
+},
+{
+ "Location": "Oceania",
+"Time": 2096,
+"billions":    0.069378214 
+},
+{
+ "Location": "Oceania",
+"Time": 2097,
+"billions":    0.069458895 
+},
+{
+ "Location": "Oceania",
+"Time": 2098,
+"billions":    0.069530858 
+},
+{
+ "Location": "Oceania",
+"Time": 2099,
+"billions":    0.069594068 
+},
+{
+ "Location": "Asia",
+"Time": 1950,
+"billions":    1.395749366 
+},
+{
+ "Location": "Asia",
+"Time": 1951,
+"billions":     1.42576193 
+},
+{
+ "Location": "Asia",
+"Time": 1952,
+"billions":    1.454048889 
+},
+{
+ "Location": "Asia",
+"Time": 1953,
+"billions":    1.481618778 
+},
+{
+ "Location": "Asia",
+"Time": 1954,
+"billions":    1.509265457 
+},
+{
+ "Location": "Asia",
+"Time": 1955,
+"billions":    1.537568149 
+},
+{
+ "Location": "Asia",
+"Time": 1956,
+"billions":    1.566881775 
+},
+{
+ "Location": "Asia",
+"Time": 1957,
+"billions":    1.597346607 
+},
+{
+ "Location": "Asia",
+"Time": 1958,
+"billions":    1.628917156 
+},
+{
+ "Location": "Asia",
+"Time": 1959,
+"billions":    1.661410319 
+},
+{
+ "Location": "Asia",
+"Time": 1960,
+"billions":    1.694649832 
+},
+{
+ "Location": "Asia",
+"Time": 1961,
+"billions":    1.728620355 
+},
+{
+ "Location": "Asia",
+"Time": 1962,
+"billions":     1.76360229 
+},
+{
+ "Location": "Asia",
+"Time": 1963,
+"billions":    1.800229568 
+},
+{
+ "Location": "Asia",
+"Time": 1964,
+"billions":    1.839325938 
+},
+{
+ "Location": "Asia",
+"Time": 1965,
+"billions":    1.881423443 
+},
+{
+ "Location": "Asia",
+"Time": 1966,
+"billions":    1.926742616 
+},
+{
+ "Location": "Asia",
+"Time": 1967,
+"billions":    1.974949506 
+},
+{
+ "Location": "Asia",
+"Time": 1968,
+"billions":    2.025318908 
+},
+{
+ "Location": "Asia",
+"Time": 1969,
+"billions":    2.076816035 
+},
+{
+ "Location": "Asia",
+"Time": 1970,
+"billions":    2.128630599 
+},
+{
+ "Location": "Asia",
+"Time": 1971,
+"billions":    2.180607909 
+},
+{
+ "Location": "Asia",
+"Time": 1972,
+"billions":    2.232790879 
+},
+{
+ "Location": "Asia",
+"Time": 1973,
+"billions":    2.284814649 
+},
+{
+ "Location": "Asia",
+"Time": 1974,
+"billions":    2.336300932 
+},
+{
+ "Location": "Asia",
+"Time": 1975,
+"billions":    2.387023632 
+},
+{
+ "Location": "Asia",
+"Time": 1976,
+"billions":    2.436767991 
+},
+{
+ "Location": "Asia",
+"Time": 1977,
+"billions":    2.485676732 
+},
+{
+ "Location": "Asia",
+"Time": 1978,
+"billions":    2.534347097 
+},
+{
+ "Location": "Asia",
+"Time": 1979,
+"billions":    2.583627703 
+},
+{
+ "Location": "Asia",
+"Time": 1980,
+"billions":     2.63416125 
+},
+{
+ "Location": "Asia",
+"Time": 1981,
+"billions":    2.685976758 
+},
+{
+ "Location": "Asia",
+"Time": 1982,
+"billions":    2.738950383 
+},
+{
+ "Location": "Asia",
+"Time": 1983,
+"billions":    2.793363887 
+},
+{
+ "Location": "Asia",
+"Time": 1984,
+"billions":    2.849521155 
+},
+{
+ "Location": "Asia",
+"Time": 1985,
+"billions":    2.907534824 
+},
+{
+ "Location": "Asia",
+"Time": 1986,
+"billions":    2.967577025 
+},
+{
+ "Location": "Asia",
+"Time": 1987,
+"billions":    3.029310337 
+},
+{
+ "Location": "Asia",
+"Time": 1988,
+"billions":    3.091690965 
+},
+{
+ "Location": "Asia",
+"Time": 1989,
+"billions":    3.153312566 
+},
+{
+ "Location": "Asia",
+"Time": 1990,
+"billions":    3.213123453 
+},
+{
+ "Location": "Asia",
+"Time": 1991,
+"billions":    3.270765475 
+},
+{
+ "Location": "Asia",
+"Time": 1992,
+"billions":    3.326386015 
+},
+{
+ "Location": "Asia",
+"Time": 1993,
+"billions":    3.380074074 
+},
+{
+ "Location": "Asia",
+"Time": 1994,
+"billions":    3.432105144 
+},
+{
+ "Location": "Asia",
+"Time": 1995,
+"billions":    3.482718617 
+},
+{
+ "Location": "Asia",
+"Time": 1996,
+"billions":    3.531855644 
+},
+{
+ "Location": "Asia",
+"Time": 1997,
+"billions":    3.579496634 
+},
+{
+ "Location": "Asia",
+"Time": 1998,
+"billions":    3.625999081 
+},
+{
+ "Location": "Asia",
+"Time": 1999,
+"billions":    3.671835531 
+},
+{
+ "Location": "Asia",
+"Time": 2000,
+"billions":    3.717371723 
+},
+{
+ "Location": "Asia",
+"Time": 2001,
+"billions":    3.762760354 
+},
+{
+ "Location": "Asia",
+"Time": 2002,
+"billions":    3.808001882 
+},
+{
+ "Location": "Asia",
+"Time": 2003,
+"billions":      3.8531204 
+},
+{
+ "Location": "Asia",
+"Time": 2004,
+"billions":    3.898086152 
+},
+{
+ "Location": "Asia",
+"Time": 2005,
+"billions":    3.942881651 
+},
+{
+ "Location": "Asia",
+"Time": 2006,
+"billions":     3.98750886 
+},
+{
+ "Location": "Asia",
+"Time": 2007,
+"billions":    4.032014496 
+},
+{
+ "Location": "Asia",
+"Time": 2008,
+"billions":    4.076462964 
+},
+{
+ "Location": "Asia",
+"Time": 2009,
+"billions":    4.120930458 
+},
+{
+ "Location": "Asia",
+"Time": 2010,
+"billions":    4.165440162 
+},
+{
+ "Location": "Asia",
+"Time": 2011,
+"billions":    4.210008094 
+},
+{
+ "Location": "Asia",
+"Time": 2012,
+"billions":     4.25452407 
+},
+{
+ "Location": "Asia",
+"Time": 2013,
+"billions":    4.298723288 
+},
+{
+ "Location": "Asia",
+"Time": 2014,
+"billions":    4.342254954 
+},
+{
+ "Location": "Asia",
+"Time": 2015,
+"billions":    4.384844097 
+},
+{
+ "Location": "Asia",
+"Time": 2016,
+"billions":     4.42637733 
+},
+{
+ "Location": "Asia",
+"Time": 2017,
+"billions":    4.466843959 
+},
+{
+ "Location": "Asia",
+"Time": 2018,
+"billions":    4.506199159 
+},
+{
+ "Location": "Asia",
+"Time": 2019,
+"billions":    4.544430127 
+},
+{
+ "Location": "Asia",
+"Time": 2020,
+"billions":    4.581523062 
+},
+{
+ "Location": "Asia",
+"Time": 2021,
+"billions":    4.617430515 
+},
+{
+ "Location": "Asia",
+"Time": 2022,
+"billions":    4.652110255 
+},
+{
+ "Location": "Asia",
+"Time": 2023,
+"billions":    4.685568847 
+},
+{
+ "Location": "Asia",
+"Time": 2024,
+"billions":     4.71783028 
+},
+{
+ "Location": "Asia",
+"Time": 2025,
+"billions":    4.748914795 
+},
+{
+ "Location": "Asia",
+"Time": 2026,
+"billions":    4.778814533 
+},
+{
+ "Location": "Asia",
+"Time": 2027,
+"billions":    4.807524648 
+},
+{
+ "Location": "Asia",
+"Time": 2028,
+"billions":    4.835074905 
+},
+{
+ "Location": "Asia",
+"Time": 2029,
+"billions":    4.861505314 
+},
+{
+ "Location": "Asia",
+"Time": 2030,
+"billions":     4.88684614 
+},
+{
+ "Location": "Asia",
+"Time": 2031,
+"billions":    4.911108483 
+},
+{
+ "Location": "Asia",
+"Time": 2032,
+"billions":    4.934289243 
+},
+{
+ "Location": "Asia",
+"Time": 2033,
+"billions":    4.956386705 
+},
+{
+ "Location": "Asia",
+"Time": 2034,
+"billions":    4.977393916 
+},
+{
+ "Location": "Asia",
+"Time": 2035,
+"billions":    4.997305331 
+},
+{
+ "Location": "Asia",
+"Time": 2036,
+"billions":    5.016125411 
+},
+{
+ "Location": "Asia",
+"Time": 2037,
+"billions":     5.03385717 
+},
+{
+ "Location": "Asia",
+"Time": 2038,
+"billions":     5.05049121 
+},
+{
+ "Location": "Asia",
+"Time": 2039,
+"billions":     5.06601453 
+},
+{
+ "Location": "Asia",
+"Time": 2040,
+"billions":    5.080418644 
+},
+{
+ "Location": "Asia",
+"Time": 2041,
+"billions":     5.09370819 
+},
+{
+ "Location": "Asia",
+"Time": 2042,
+"billions":    5.105890267 
+},
+{
+ "Location": "Asia",
+"Time": 2043,
+"billions":    5.116963058 
+},
+{
+ "Location": "Asia",
+"Time": 2044,
+"billions":    5.126924285 
+},
+{
+ "Location": "Asia",
+"Time": 2045,
+"billions":    5.135777661 
+},
+{
+ "Location": "Asia",
+"Time": 2046,
+"billions":    5.143532174 
+},
+{
+ "Location": "Asia",
+"Time": 2047,
+"billions":    5.150207051 
+},
+{
+ "Location": "Asia",
+"Time": 2048,
+"billions":     5.15583053 
+},
+{
+ "Location": "Asia",
+"Time": 2049,
+"billions":    5.160437682 
+},
+{
+ "Location": "Asia",
+"Time": 2050,
+"billions":    5.164061493 
+},
+{
+ "Location": "Asia",
+"Time": 2051,
+"billions":    5.166727045 
+},
+{
+ "Location": "Asia",
+"Time": 2052,
+"billions":    5.168456771 
+},
+{
+ "Location": "Asia",
+"Time": 2053,
+"billions":    5.169279166 
+},
+{
+ "Location": "Asia",
+"Time": 2054,
+"billions":    5.169223797 
+},
+{
+ "Location": "Asia",
+"Time": 2055,
+"billions":     5.16832097 
+},
+{
+ "Location": "Asia",
+"Time": 2056,
+"billions":    5.166597912 
+},
+{
+ "Location": "Asia",
+"Time": 2057,
+"billions":    5.164085398 
+},
+{
+ "Location": "Asia",
+"Time": 2058,
+"billions":    5.160821749 
+},
+{
+ "Location": "Asia",
+"Time": 2059,
+"billions":    5.156848432 
+},
+{
+ "Location": "Asia",
+"Time": 2060,
+"billions":    5.152203354 
+},
+{
+ "Location": "Asia",
+"Time": 2061,
+"billions":    5.146916181 
+},
+{
+ "Location": "Asia",
+"Time": 2062,
+"billions":    5.141012781 
+},
+{
+ "Location": "Asia",
+"Time": 2063,
+"billions":      5.1345221 
+},
+{
+ "Location": "Asia",
+"Time": 2064,
+"billions":    5.127472034 
+},
+{
+ "Location": "Asia",
+"Time": 2065,
+"billions":    5.119888713 
+},
+{
+ "Location": "Asia",
+"Time": 2066,
+"billions":    5.111802477 
+},
+{
+ "Location": "Asia",
+"Time": 2067,
+"billions":    5.103236794 
+},
+{
+ "Location": "Asia",
+"Time": 2068,
+"billions":    5.094202259 
+},
+{
+ "Location": "Asia",
+"Time": 2069,
+"billions":    5.084703841 
+},
+{
+ "Location": "Asia",
+"Time": 2070,
+"billions":    5.074752919 
+},
+{
+ "Location": "Asia",
+"Time": 2071,
+"billions":    5.064375984 
+},
+{
+ "Location": "Asia",
+"Time": 2072,
+"billions":    5.053606065 
+},
+{
+ "Location": "Asia",
+"Time": 2073,
+"billions":    5.042470148 
+},
+{
+ "Location": "Asia",
+"Time": 2074,
+"billions":    5.030996857 
+},
+{
+ "Location": "Asia",
+"Time": 2075,
+"billions":    5.019218415 
+},
+{
+ "Location": "Asia",
+"Time": 2076,
+"billions":    5.007159178 
+},
+{
+ "Location": "Asia",
+"Time": 2077,
+"billions":    4.994857114 
+},
+{
+ "Location": "Asia",
+"Time": 2078,
+"billions":    4.982375099 
+},
+{
+ "Location": "Asia",
+"Time": 2079,
+"billions":     4.96978693 
+},
+{
+ "Location": "Asia",
+"Time": 2080,
+"billions":    4.957153827 
+},
+{
+ "Location": "Asia",
+"Time": 2081,
+"billions":    4.944505744 
+},
+{
+ "Location": "Asia",
+"Time": 2082,
+"billions":    4.931861017 
+},
+{
+ "Location": "Asia",
+"Time": 2083,
+"billions":    4.919252734 
+},
+{
+ "Location": "Asia",
+"Time": 2084,
+"billions":    4.906711698 
+},
+{
+ "Location": "Asia",
+"Time": 2085,
+"billions":    4.894259645 
+},
+{
+ "Location": "Asia",
+"Time": 2086,
+"billions":    4.881914916 
+},
+{
+ "Location": "Asia",
+"Time": 2087,
+"billions":    4.869678442 
+},
+{
+ "Location": "Asia",
+"Time": 2088,
+"billions":    4.857529957 
+},
+{
+ "Location": "Asia",
+"Time": 2089,
+"billions":    4.845436138 
+},
+{
+ "Location": "Asia",
+"Time": 2090,
+"billions":    4.833369114 
+},
+{
+ "Location": "Asia",
+"Time": 2091,
+"billions":    4.821312751 
+},
+{
+ "Location": "Asia",
+"Time": 2092,
+"billions":     4.80926045 
+},
+{
+ "Location": "Asia",
+"Time": 2093,
+"billions":    4.797209955 
+},
+{
+ "Location": "Asia",
+"Time": 2094,
+"billions":    4.785157404 
+},
+{
+ "Location": "Asia",
+"Time": 2095,
+"billions":    4.773091847 
+},
+{
+ "Location": "Asia",
+"Time": 2096,
+"billions":    4.760993327 
+},
+{
+ "Location": "Asia",
+"Time": 2097,
+"billions":    4.748831836 
+},
+{
+ "Location": "Asia",
+"Time": 2098,
+"billions":    4.736566848 
+},
+{
+ "Location": "Asia",
+"Time": 2099,
+"billions":    4.724147806 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        chart
+  .color([ "#66C2A5", "#FC8D62", "#8DA0CB", "#E78AC3", "#A6D854", "#FFD92F" ])
+  .tooltipContent( function(key, x, y){
+        return '<h3>' + key + '</h3>' + 
+        '<p>' + y + ' billion in ' + x + '</p>'
+        } )
+          
+        chart.xAxis
+  .axisLabel("Year")
+
+        
+        
+        chart.yAxis
+  .tickFormat(d3.format(',.1f'))
+  .axisLabel("Population (billions)")
+  .width(    62)
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>

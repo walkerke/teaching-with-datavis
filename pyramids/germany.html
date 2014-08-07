@@ -1,0 +1,2177 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    
+    <script src='http://d3js.org/d3.v3.min.js' type='text/javascript'></script>
+    <script src='http://dimplejs.org/dist/dimple.v1.1.5.min.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart30c12507cd4' class = 'rChart dimple'></div>    
+    <script type="text/javascript">
+  var opts = {
+ "dom": "chart30c12507cd4",
+"width":    800,
+"height":    400,
+"x": "Population",
+"y": "Age",
+"groups": "Gender",
+"type": "bar",
+"storyboard": "Year",
+"id": "chart30c12507cd4" 
+},
+    data = [
+ {
+ "Age": "0-4",
+"ord": 1,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.0189e+06,
+"gencode":      1 
+},
+{
+ "Age": "5-9",
+"ord": 2,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.1364e+06,
+"gencode":      1 
+},
+{
+ "Age": "10-14",
+"ord": 3,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.4223e+06,
+"gencode":      1 
+},
+{
+ "Age": "15-19",
+"ord": 4,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.3644e+06,
+"gencode":      1 
+},
+{
+ "Age": "20-24",
+"ord": 5,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.3229e+06,
+"gencode":      1 
+},
+{
+ "Age": "25-29",
+"ord": 6,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.5898e+06,
+"gencode":      1 
+},
+{
+ "Age": "30-34",
+"ord": 7,
+"Year":   2000,
+"Gender": "Male",
+"Population": -3.5316e+06,
+"gencode":      1 
+},
+{
+ "Age": "35-39",
+"ord": 8,
+"Year":   2000,
+"Gender": "Male",
+"Population": -3.7157e+06,
+"gencode":      1 
+},
+{
+ "Age": "40-44",
+"ord": 9,
+"Year":   2000,
+"Gender": "Male",
+"Population": -3.2345e+06,
+"gencode":      1 
+},
+{
+ "Age": "45-49",
+"ord": 10,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.8692e+06,
+"gencode":      1 
+},
+{
+ "Age": "50-54",
+"ord": 11,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.4268e+06,
+"gencode":      1 
+},
+{
+ "Age": "55-59",
+"ord": 12,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.5775e+06,
+"gencode":      1 
+},
+{
+ "Age": "60-64",
+"ord": 13,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.7425e+06,
+"gencode":      1 
+},
+{
+ "Age": "65-69",
+"ord": 14,
+"Year":   2000,
+"Gender": "Male",
+"Population": -1.9268e+06,
+"gencode":      1 
+},
+{
+ "Age": "70-74",
+"ord": 15,
+"Year":   2000,
+"Gender": "Male",
+"Population": -1.5214e+06,
+"gencode":      1 
+},
+{
+ "Age": "75-79",
+"ord": 16,
+"Year":   2000,
+"Gender": "Male",
+"Population": -9.4259e+05,
+"gencode":      1 
+},
+{
+ "Age": "80-84",
+"ord": 17,
+"Year":   2000,
+"Gender": "Male",
+"Population": -4.0887e+05,
+"gencode":      1 
+},
+{
+ "Age": "85-89",
+"ord": 18,
+"Year":   2000,
+"Gender": "Male",
+"Population": -2.7493e+05,
+"gencode":      1 
+},
+{
+ "Age": "90-94",
+"ord": 19,
+"Year":   2000,
+"Gender": "Male",
+"Population": -90878,
+"gencode":      1 
+},
+{
+ "Age": "95-99",
+"ord": 20,
+"Year":   2000,
+"Gender": "Male",
+"Population": -16076,
+"gencode":      1 
+},
+{
+ "Age": "100+",
+"ord": 21,
+"Year":   2000,
+"Gender": "Male",
+"Population":  -1230,
+"gencode":      1 
+},
+{
+ "Age": "0-4",
+"ord": 22,
+"Year":   2010,
+"Gender": "Male",
+"Population": -1.7449e+06,
+"gencode":      1 
+},
+{
+ "Age": "5-9",
+"ord": 23,
+"Year":   2010,
+"Gender": "Male",
+"Population": -1.8492e+06,
+"gencode":      1 
+},
+{
+ "Age": "10-14",
+"ord": 24,
+"Year":   2010,
+"Gender": "Male",
+"Population": -2.0354e+06,
+"gencode":      1 
+},
+{
+ "Age": "15-19",
+"ord": 25,
+"Year":   2010,
+"Gender": "Male",
+"Population": -2.1694e+06,
+"gencode":      1 
+},
+{
+ "Age": "20-24",
+"ord": 26,
+"Year":   2010,
+"Gender": "Male",
+"Population": -2.507e+06,
+"gencode":      1 
+},
+{
+ "Age": "25-29",
+"ord": 27,
+"Year":   2010,
+"Gender": "Male",
+"Population": -2.4763e+06,
+"gencode":      1 
+},
+{
+ "Age": "30-34",
+"ord": 28,
+"Year":   2010,
+"Gender": "Male",
+"Population": -2.4041e+06,
+"gencode":      1 
+},
+{
+ "Age": "35-39",
+"ord": 29,
+"Year":   2010,
+"Gender": "Male",
+"Population": -2.5874e+06,
+"gencode":      1 
+},
+{
+ "Age": "40-44",
+"ord": 30,
+"Year":   2010,
+"Gender": "Male",
+"Population": -3.4622e+06,
+"gencode":      1 
+},
+{
+ "Age": "45-49",
+"ord": 31,
+"Year":   2010,
+"Gender": "Male",
+"Population": -3.6144e+06,
+"gencode":      1 
+},
+{
+ "Age": "50-54",
+"ord": 32,
+"Year":   2010,
+"Gender": "Male",
+"Population": -3.1072e+06,
+"gencode":      1 
+},
+{
+ "Age": "55-59",
+"ord": 33,
+"Year":   2010,
+"Gender": "Male",
+"Population": -2.7029e+06,
+"gencode":      1 
+},
+{
+ "Age": "60-64",
+"ord": 34,
+"Year":   2010,
+"Gender": "Male",
+"Population": -2.2181e+06,
+"gencode":      1 
+},
+{
+ "Age": "65-69",
+"ord": 35,
+"Year":   2010,
+"Gender": "Male",
+"Population": -2.2369e+06,
+"gencode":      1 
+},
+{
+ "Age": "70-74",
+"ord": 36,
+"Year":   2010,
+"Gender": "Male",
+"Population": -2.2148e+06,
+"gencode":      1 
+},
+{
+ "Age": "75-79",
+"ord": 37,
+"Year":   2010,
+"Gender": "Male",
+"Population": -1.3611e+06,
+"gencode":      1 
+},
+{
+ "Age": "80-84",
+"ord": 38,
+"Year":   2010,
+"Gender": "Male",
+"Population": -8.7105e+05,
+"gencode":      1 
+},
+{
+ "Age": "85-89",
+"ord": 39,
+"Year":   2010,
+"Gender": "Male",
+"Population": -3.7642e+05,
+"gencode":      1 
+},
+{
+ "Age": "90-94",
+"ord": 40,
+"Year":   2010,
+"Gender": "Male",
+"Population": -1.0046e+05,
+"gencode":      1 
+},
+{
+ "Age": "95-99",
+"ord": 41,
+"Year":   2010,
+"Gender": "Male",
+"Population": -32429,
+"gencode":      1 
+},
+{
+ "Age": "100+",
+"ord": 42,
+"Year":   2010,
+"Gender": "Male",
+"Population":  -4537,
+"gencode":      1 
+},
+{
+ "Age": "0-4",
+"ord": 43,
+"Year":   2020,
+"Gender": "Male",
+"Population": -1.7768e+06,
+"gencode":      1 
+},
+{
+ "Age": "5-9",
+"ord": 44,
+"Year":   2020,
+"Gender": "Male",
+"Population": -1.7612e+06,
+"gencode":      1 
+},
+{
+ "Age": "10-14",
+"ord": 45,
+"Year":   2020,
+"Gender": "Male",
+"Population": -1.7649e+06,
+"gencode":      1 
+},
+{
+ "Age": "15-19",
+"ord": 46,
+"Year":   2020,
+"Gender": "Male",
+"Population": -1.8848e+06,
+"gencode":      1 
+},
+{
+ "Age": "20-24",
+"ord": 47,
+"Year":   2020,
+"Gender": "Male",
+"Population": -2.1276e+06,
+"gencode":      1 
+},
+{
+ "Age": "25-29",
+"ord": 48,
+"Year":   2020,
+"Gender": "Male",
+"Population": -2.2982e+06,
+"gencode":      1 
+},
+{
+ "Age": "30-34",
+"ord": 49,
+"Year":   2020,
+"Gender": "Male",
+"Population": -2.577e+06,
+"gencode":      1 
+},
+{
+ "Age": "35-39",
+"ord": 50,
+"Year":   2020,
+"Gender": "Male",
+"Population": -2.4559e+06,
+"gencode":      1 
+},
+{
+ "Age": "40-44",
+"ord": 51,
+"Year":   2020,
+"Gender": "Male",
+"Population": -2.3507e+06,
+"gencode":      1 
+},
+{
+ "Age": "45-49",
+"ord": 52,
+"Year":   2020,
+"Gender": "Male",
+"Population": -2.5218e+06,
+"gencode":      1 
+},
+{
+ "Age": "50-54",
+"ord": 53,
+"Year":   2020,
+"Gender": "Male",
+"Population": -3.3497e+06,
+"gencode":      1 
+},
+{
+ "Age": "55-59",
+"ord": 54,
+"Year":   2020,
+"Gender": "Male",
+"Population": -3.4339e+06,
+"gencode":      1 
+},
+{
+ "Age": "60-64",
+"ord": 55,
+"Year":   2020,
+"Gender": "Male",
+"Population": -2.864e+06,
+"gencode":      1 
+},
+{
+ "Age": "65-69",
+"ord": 56,
+"Year":   2020,
+"Gender": "Male",
+"Population": -2.3848e+06,
+"gencode":      1 
+},
+{
+ "Age": "70-74",
+"ord": 57,
+"Year":   2020,
+"Gender": "Male",
+"Population": -1.8397e+06,
+"gencode":      1 
+},
+{
+ "Age": "75-79",
+"ord": 58,
+"Year":   2020,
+"Gender": "Male",
+"Population": -1.6494e+06,
+"gencode":      1 
+},
+{
+ "Age": "80-84",
+"ord": 59,
+"Year":   2020,
+"Gender": "Male",
+"Population": -1.3562e+06,
+"gencode":      1 
+},
+{
+ "Age": "85-89",
+"ord": 60,
+"Year":   2020,
+"Gender": "Male",
+"Population": -6.0853e+05,
+"gencode":      1 
+},
+{
+ "Age": "90-94",
+"ord": 61,
+"Year":   2020,
+"Gender": "Male",
+"Population": -2.4674e+05,
+"gencode":      1 
+},
+{
+ "Age": "95-99",
+"ord": 62,
+"Year":   2020,
+"Gender": "Male",
+"Population": -55986,
+"gencode":      1 
+},
+{
+ "Age": "100+",
+"ord": 63,
+"Year":   2020,
+"Gender": "Male",
+"Population":  -7484,
+"gencode":      1 
+},
+{
+ "Age": "0-4",
+"ord": 64,
+"Year":   2030,
+"Gender": "Male",
+"Population": -1.702e+06,
+"gencode":      1 
+},
+{
+ "Age": "5-9",
+"ord": 65,
+"Year":   2030,
+"Gender": "Male",
+"Population": -1.7762e+06,
+"gencode":      1 
+},
+{
+ "Age": "10-14",
+"ord": 66,
+"Year":   2030,
+"Gender": "Male",
+"Population": -1.8077e+06,
+"gencode":      1 
+},
+{
+ "Age": "15-19",
+"ord": 67,
+"Year":   2030,
+"Gender": "Male",
+"Population": -1.8116e+06,
+"gencode":      1 
+},
+{
+ "Age": "20-24",
+"ord": 68,
+"Year":   2030,
+"Gender": "Male",
+"Population": -1.876e+06,
+"gencode":      1 
+},
+{
+ "Age": "25-29",
+"ord": 69,
+"Year":   2030,
+"Gender": "Male",
+"Population": -2.0331e+06,
+"gencode":      1 
+},
+{
+ "Age": "30-34",
+"ord": 70,
+"Year":   2030,
+"Gender": "Male",
+"Population": -2.2173e+06,
+"gencode":      1 
+},
+{
+ "Age": "35-39",
+"ord": 71,
+"Year":   2030,
+"Gender": "Male",
+"Population": -2.2939e+06,
+"gencode":      1 
+},
+{
+ "Age": "40-44",
+"ord": 72,
+"Year":   2030,
+"Gender": "Male",
+"Population": -2.5244e+06,
+"gencode":      1 
+},
+{
+ "Age": "45-49",
+"ord": 73,
+"Year":   2030,
+"Gender": "Male",
+"Population": -2.3946e+06,
+"gencode":      1 
+},
+{
+ "Age": "50-54",
+"ord": 74,
+"Year":   2030,
+"Gender": "Male",
+"Population": -2.2791e+06,
+"gencode":      1 
+},
+{
+ "Age": "55-59",
+"ord": 75,
+"Year":   2030,
+"Gender": "Male",
+"Population": -2.4073e+06,
+"gencode":      1 
+},
+{
+ "Age": "60-64",
+"ord": 76,
+"Year":   2030,
+"Gender": "Male",
+"Population": -3.1115e+06,
+"gencode":      1 
+},
+{
+ "Age": "65-69",
+"ord": 77,
+"Year":   2030,
+"Gender": "Male",
+"Population": -3.0656e+06,
+"gencode":      1 
+},
+{
+ "Age": "70-74",
+"ord": 78,
+"Year":   2030,
+"Gender": "Male",
+"Population": -2.4104e+06,
+"gencode":      1 
+},
+{
+ "Age": "75-79",
+"ord": 79,
+"Year":   2030,
+"Gender": "Male",
+"Population": -1.8103e+06,
+"gencode":      1 
+},
+{
+ "Age": "80-84",
+"ord": 80,
+"Year":   2030,
+"Gender": "Male",
+"Population": -1.1748e+06,
+"gencode":      1 
+},
+{
+ "Age": "85-89",
+"ord": 81,
+"Year":   2030,
+"Gender": "Male",
+"Population": -7.7483e+05,
+"gencode":      1 
+},
+{
+ "Age": "90-94",
+"ord": 82,
+"Year":   2030,
+"Gender": "Male",
+"Population": -4.2645e+05,
+"gencode":      1 
+},
+{
+ "Age": "95-99",
+"ord": 83,
+"Year":   2030,
+"Gender": "Male",
+"Population": -1.0682e+05,
+"gencode":      1 
+},
+{
+ "Age": "100+",
+"ord": 84,
+"Year":   2030,
+"Gender": "Male",
+"Population": -20783,
+"gencode":      1 
+},
+{
+ "Age": "0-4",
+"ord": 85,
+"Year":   2040,
+"Gender": "Male",
+"Population": -1.6277e+06,
+"gencode":      1 
+},
+{
+ "Age": "5-9",
+"ord": 86,
+"Year":   2040,
+"Gender": "Male",
+"Population": -1.6658e+06,
+"gencode":      1 
+},
+{
+ "Age": "10-14",
+"ord": 87,
+"Year":   2040,
+"Gender": "Male",
+"Population": -1.7332e+06,
+"gencode":      1 
+},
+{
+ "Age": "15-19",
+"ord": 88,
+"Year":   2040,
+"Gender": "Male",
+"Population": -1.8268e+06,
+"gencode":      1 
+},
+{
+ "Age": "20-24",
+"ord": 89,
+"Year":   2040,
+"Gender": "Male",
+"Population": -1.919e+06,
+"gencode":      1 
+},
+{
+ "Age": "25-29",
+"ord": 90,
+"Year":   2040,
+"Gender": "Male",
+"Population": -1.9606e+06,
+"gencode":      1 
+},
+{
+ "Age": "30-34",
+"ord": 91,
+"Year":   2040,
+"Gender": "Male",
+"Population": -1.9677e+06,
+"gencode":      1 
+},
+{
+ "Age": "35-39",
+"ord": 92,
+"Year":   2040,
+"Gender": "Male",
+"Population": -2.0315e+06,
+"gencode":      1 
+},
+{
+ "Age": "40-44",
+"ord": 93,
+"Year":   2040,
+"Gender": "Male",
+"Population": -2.1693e+06,
+"gencode":      1 
+},
+{
+ "Age": "45-49",
+"ord": 94,
+"Year":   2040,
+"Gender": "Male",
+"Population": -2.2372e+06,
+"gencode":      1 
+},
+{
+ "Age": "50-54",
+"ord": 95,
+"Year":   2040,
+"Gender": "Male",
+"Population": -2.4533e+06,
+"gencode":      1 
+},
+{
+ "Age": "55-59",
+"ord": 96,
+"Year":   2040,
+"Gender": "Male",
+"Population": -2.295e+06,
+"gencode":      1 
+},
+{
+ "Age": "60-64",
+"ord": 97,
+"Year":   2040,
+"Gender": "Male",
+"Population": -2.1263e+06,
+"gencode":      1 
+},
+{
+ "Age": "65-69",
+"ord": 98,
+"Year":   2040,
+"Gender": "Male",
+"Population": -2.1553e+06,
+"gencode":      1 
+},
+{
+ "Age": "70-74",
+"ord": 99,
+"Year":   2040,
+"Gender": "Male",
+"Population": -2.6386e+06,
+"gencode":      1 
+},
+{
+ "Age": "75-79",
+"ord": 100,
+"Year":   2040,
+"Gender": "Male",
+"Population": -2.3646e+06,
+"gencode":      1 
+},
+{
+ "Age": "80-84",
+"ord": 101,
+"Year":   2040,
+"Gender": "Male",
+"Population": -1.5755e+06,
+"gencode":      1 
+},
+{
+ "Age": "85-89",
+"ord": 102,
+"Year":   2040,
+"Gender": "Male",
+"Population": -9.0539e+05,
+"gencode":      1 
+},
+{
+ "Age": "90-94",
+"ord": 103,
+"Year":   2040,
+"Gender": "Male",
+"Population": -4.0128e+05,
+"gencode":      1 
+},
+{
+ "Age": "95-99",
+"ord": 104,
+"Year":   2040,
+"Gender": "Male",
+"Population": -1.4623e+05,
+"gencode":      1 
+},
+{
+ "Age": "100+",
+"ord": 105,
+"Year":   2040,
+"Gender": "Male",
+"Population": -42068,
+"gencode":      1 
+},
+{
+ "Age": "0-4",
+"ord": 106,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.6806e+06,
+"gencode":      1 
+},
+{
+ "Age": "5-9",
+"ord": 107,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.6615e+06,
+"gencode":      1 
+},
+{
+ "Age": "10-14",
+"ord": 108,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.6591e+06,
+"gencode":      1 
+},
+{
+ "Age": "15-19",
+"ord": 109,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.7166e+06,
+"gencode":      1 
+},
+{
+ "Age": "20-24",
+"ord": 110,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.8449e+06,
+"gencode":      1 
+},
+{
+ "Age": "25-29",
+"ord": 111,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.976e+06,
+"gencode":      1 
+},
+{
+ "Age": "30-34",
+"ord": 112,
+"Year":   2050,
+"Gender": "Male",
+"Population": -2.0109e+06,
+"gencode":      1 
+},
+{
+ "Age": "35-39",
+"ord": 113,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.9601e+06,
+"gencode":      1 
+},
+{
+ "Age": "40-44",
+"ord": 114,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.9227e+06,
+"gencode":      1 
+},
+{
+ "Age": "45-49",
+"ord": 115,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.9802e+06,
+"gencode":      1 
+},
+{
+ "Age": "50-54",
+"ord": 116,
+"Year":   2050,
+"Gender": "Male",
+"Population": -2.1098e+06,
+"gencode":      1 
+},
+{
+ "Age": "55-59",
+"ord": 117,
+"Year":   2050,
+"Gender": "Male",
+"Population": -2.1491e+06,
+"gencode":      1 
+},
+{
+ "Age": "60-64",
+"ord": 118,
+"Year":   2050,
+"Gender": "Male",
+"Population": -2.2979e+06,
+"gencode":      1 
+},
+{
+ "Age": "65-69",
+"ord": 119,
+"Year":   2050,
+"Gender": "Male",
+"Population": -2.0664e+06,
+"gencode":      1 
+},
+{
+ "Age": "70-74",
+"ord": 120,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.8143e+06,
+"gencode":      1 
+},
+{
+ "Age": "75-79",
+"ord": 121,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.6722e+06,
+"gencode":      1 
+},
+{
+ "Age": "80-84",
+"ord": 122,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.7511e+06,
+"gencode":      1 
+},
+{
+ "Age": "85-89",
+"ord": 123,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.2282e+06,
+"gencode":      1 
+},
+{
+ "Age": "90-94",
+"ord": 124,
+"Year":   2050,
+"Gender": "Male",
+"Population": -5.6511e+05,
+"gencode":      1 
+},
+{
+ "Age": "95-99",
+"ord": 125,
+"Year":   2050,
+"Gender": "Male",
+"Population": -1.899e+05,
+"gencode":      1 
+},
+{
+ "Age": "100+",
+"ord": 126,
+"Year":   2050,
+"Gender": "Male",
+"Population": -46989,
+"gencode":      1 
+},
+{
+ "Age": "0-4",
+"ord": 1,
+"Year":   2000,
+"Gender": "Female",
+"Population": 1.916e+06,
+"gencode":      2 
+},
+{
+ "Age": "5-9",
+"ord": 2,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.0272e+06,
+"gencode":      2 
+},
+{
+ "Age": "10-14",
+"ord": 3,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.2965e+06,
+"gencode":      2 
+},
+{
+ "Age": "15-19",
+"ord": 4,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.2489e+06,
+"gencode":      2 
+},
+{
+ "Age": "20-24",
+"ord": 5,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.2161e+06,
+"gencode":      2 
+},
+{
+ "Age": "25-29",
+"ord": 6,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.4585e+06,
+"gencode":      2 
+},
+{
+ "Age": "30-34",
+"ord": 7,
+"Year":   2000,
+"Gender": "Female",
+"Population": 3.3228e+06,
+"gencode":      2 
+},
+{
+ "Age": "35-39",
+"ord": 8,
+"Year":   2000,
+"Gender": "Female",
+"Population": 3.4905e+06,
+"gencode":      2 
+},
+{
+ "Age": "40-44",
+"ord": 9,
+"Year":   2000,
+"Gender": "Female",
+"Population": 3.0818e+06,
+"gencode":      2 
+},
+{
+ "Age": "45-49",
+"ord": 10,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.8205e+06,
+"gencode":      2 
+},
+{
+ "Age": "50-54",
+"ord": 11,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.385e+06,
+"gencode":      2 
+},
+{
+ "Age": "55-59",
+"ord": 12,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.5846e+06,
+"gencode":      2 
+},
+{
+ "Age": "60-64",
+"ord": 13,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.8617e+06,
+"gencode":      2 
+},
+{
+ "Age": "65-69",
+"ord": 14,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.1623e+06,
+"gencode":      2 
+},
+{
+ "Age": "70-74",
+"ord": 15,
+"Year":   2000,
+"Gender": "Female",
+"Population": 2.0492e+06,
+"gencode":      2 
+},
+{
+ "Age": "75-79",
+"ord": 16,
+"Year":   2000,
+"Gender": "Female",
+"Population": 1.8966e+06,
+"gencode":      2 
+},
+{
+ "Age": "80-84",
+"ord": 17,
+"Year":   2000,
+"Gender": "Female",
+"Population": 9.8916e+05,
+"gencode":      2 
+},
+{
+ "Age": "85-89",
+"ord": 18,
+"Year":   2000,
+"Gender": "Female",
+"Population": 8.3179e+05,
+"gencode":      2 
+},
+{
+ "Age": "90-94",
+"ord": 19,
+"Year":   2000,
+"Gender": "Female",
+"Population": 3.342e+05,
+"gencode":      2 
+},
+{
+ "Age": "95-99",
+"ord": 20,
+"Year":   2000,
+"Gender": "Female",
+"Population":  68284,
+"gencode":      2 
+},
+{
+ "Age": "100+",
+"ord": 21,
+"Year":   2000,
+"Gender": "Female",
+"Population":   6902,
+"gencode":      2 
+},
+{
+ "Age": "0-4",
+"ord": 22,
+"Year":   2010,
+"Gender": "Female",
+"Population": 1.6544e+06,
+"gencode":      2 
+},
+{
+ "Age": "5-9",
+"ord": 23,
+"Year":   2010,
+"Gender": "Female",
+"Population": 1.7534e+06,
+"gencode":      2 
+},
+{
+ "Age": "10-14",
+"ord": 24,
+"Year":   2010,
+"Gender": "Female",
+"Population": 1.9323e+06,
+"gencode":      2 
+},
+{
+ "Age": "15-19",
+"ord": 25,
+"Year":   2010,
+"Gender": "Female",
+"Population": 2.0636e+06,
+"gencode":      2 
+},
+{
+ "Age": "20-24",
+"ord": 26,
+"Year":   2010,
+"Gender": "Female",
+"Population": 2.4071e+06,
+"gencode":      2 
+},
+{
+ "Age": "25-29",
+"ord": 27,
+"Year":   2010,
+"Gender": "Female",
+"Population": 2.4154e+06,
+"gencode":      2 
+},
+{
+ "Age": "30-34",
+"ord": 28,
+"Year":   2010,
+"Gender": "Female",
+"Population": 2.3461e+06,
+"gencode":      2 
+},
+{
+ "Age": "35-39",
+"ord": 29,
+"Year":   2010,
+"Gender": "Female",
+"Population": 2.5097e+06,
+"gencode":      2 
+},
+{
+ "Age": "40-44",
+"ord": 30,
+"Year":   2010,
+"Gender": "Female",
+"Population": 3.3267e+06,
+"gencode":      2 
+},
+{
+ "Age": "45-49",
+"ord": 31,
+"Year":   2010,
+"Gender": "Female",
+"Population": 3.4706e+06,
+"gencode":      2 
+},
+{
+ "Age": "50-54",
+"ord": 32,
+"Year":   2010,
+"Gender": "Female",
+"Population": 3.045e+06,
+"gencode":      2 
+},
+{
+ "Age": "55-59",
+"ord": 33,
+"Year":   2010,
+"Gender": "Female",
+"Population": 2.7531e+06,
+"gencode":      2 
+},
+{
+ "Age": "60-64",
+"ord": 34,
+"Year":   2010,
+"Gender": "Female",
+"Population": 2.285e+06,
+"gencode":      2 
+},
+{
+ "Age": "65-69",
+"ord": 35,
+"Year":   2010,
+"Gender": "Female",
+"Population": 2.4144e+06,
+"gencode":      2 
+},
+{
+ "Age": "70-74",
+"ord": 36,
+"Year":   2010,
+"Gender": "Female",
+"Population": 2.5745e+06,
+"gencode":      2 
+},
+{
+ "Age": "75-79",
+"ord": 37,
+"Year":   2010,
+"Gender": "Female",
+"Population": 1.7893e+06,
+"gencode":      2 
+},
+{
+ "Age": "80-84",
+"ord": 38,
+"Year":   2010,
+"Gender": "Female",
+"Population": 1.4249e+06,
+"gencode":      2 
+},
+{
+ "Age": "85-89",
+"ord": 39,
+"Year":   2010,
+"Gender": "Female",
+"Population": 9.5316e+05,
+"gencode":      2 
+},
+{
+ "Age": "90-94",
+"ord": 40,
+"Year":   2010,
+"Gender": "Female",
+"Population": 3.0779e+05,
+"gencode":      2 
+},
+{
+ "Age": "95-99",
+"ord": 41,
+"Year":   2010,
+"Gender": "Female",
+"Population": 1.214e+05,
+"gencode":      2 
+},
+{
+ "Age": "100+",
+"ord": 42,
+"Year":   2010,
+"Gender": "Female",
+"Population":  20261,
+"gencode":      2 
+},
+{
+ "Age": "0-4",
+"ord": 43,
+"Year":   2020,
+"Gender": "Female",
+"Population": 1.6841e+06,
+"gencode":      2 
+},
+{
+ "Age": "5-9",
+"ord": 44,
+"Year":   2020,
+"Gender": "Female",
+"Population": 1.6697e+06,
+"gencode":      2 
+},
+{
+ "Age": "10-14",
+"ord": 45,
+"Year":   2020,
+"Gender": "Female",
+"Population": 1.672e+06,
+"gencode":      2 
+},
+{
+ "Age": "15-19",
+"ord": 46,
+"Year":   2020,
+"Gender": "Female",
+"Population": 1.793e+06,
+"gencode":      2 
+},
+{
+ "Age": "20-24",
+"ord": 47,
+"Year":   2020,
+"Gender": "Female",
+"Population": 2.0615e+06,
+"gencode":      2 
+},
+{
+ "Age": "25-29",
+"ord": 48,
+"Year":   2020,
+"Gender": "Female",
+"Population": 2.2538e+06,
+"gencode":      2 
+},
+{
+ "Age": "30-34",
+"ord": 49,
+"Year":   2020,
+"Gender": "Female",
+"Population": 2.5266e+06,
+"gencode":      2 
+},
+{
+ "Age": "35-39",
+"ord": 50,
+"Year":   2020,
+"Gender": "Female",
+"Population": 2.4502e+06,
+"gencode":      2 
+},
+{
+ "Age": "40-44",
+"ord": 51,
+"Year":   2020,
+"Gender": "Female",
+"Population": 2.3511e+06,
+"gencode":      2 
+},
+{
+ "Age": "45-49",
+"ord": 52,
+"Year":   2020,
+"Gender": "Female",
+"Population": 2.5019e+06,
+"gencode":      2 
+},
+{
+ "Age": "50-54",
+"ord": 53,
+"Year":   2020,
+"Gender": "Female",
+"Population": 3.2869e+06,
+"gencode":      2 
+},
+{
+ "Age": "55-59",
+"ord": 54,
+"Year":   2020,
+"Gender": "Female",
+"Population": 3.3908e+06,
+"gencode":      2 
+},
+{
+ "Age": "60-64",
+"ord": 55,
+"Year":   2020,
+"Gender": "Female",
+"Population": 2.9252e+06,
+"gencode":      2 
+},
+{
+ "Age": "65-69",
+"ord": 56,
+"Year":   2020,
+"Gender": "Female",
+"Population": 2.5822e+06,
+"gencode":      2 
+},
+{
+ "Age": "70-74",
+"ord": 57,
+"Year":   2020,
+"Gender": "Female",
+"Population": 2.0715e+06,
+"gencode":      2 
+},
+{
+ "Age": "75-79",
+"ord": 58,
+"Year":   2020,
+"Gender": "Female",
+"Population": 2.034e+06,
+"gencode":      2 
+},
+{
+ "Age": "80-84",
+"ord": 59,
+"Year":   2020,
+"Gender": "Female",
+"Population": 1.8857e+06,
+"gencode":      2 
+},
+{
+ "Age": "85-89",
+"ord": 60,
+"Year":   2020,
+"Gender": "Female",
+"Population": 9.9346e+05,
+"gencode":      2 
+},
+{
+ "Age": "90-94",
+"ord": 61,
+"Year":   2020,
+"Gender": "Female",
+"Population": 5.0322e+05,
+"gencode":      2 
+},
+{
+ "Age": "95-99",
+"ord": 62,
+"Year":   2020,
+"Gender": "Female",
+"Population": 1.7809e+05,
+"gencode":      2 
+},
+{
+ "Age": "100+",
+"ord": 63,
+"Year":   2020,
+"Gender": "Female",
+"Population":  29371,
+"gencode":      2 
+},
+{
+ "Age": "0-4",
+"ord": 64,
+"Year":   2030,
+"Gender": "Female",
+"Population": 1.6131e+06,
+"gencode":      2 
+},
+{
+ "Age": "5-9",
+"ord": 65,
+"Year":   2030,
+"Gender": "Female",
+"Population": 1.6823e+06,
+"gencode":      2 
+},
+{
+ "Age": "10-14",
+"ord": 66,
+"Year":   2030,
+"Gender": "Female",
+"Population": 1.7115e+06,
+"gencode":      2 
+},
+{
+ "Age": "15-19",
+"ord": 67,
+"Year":   2030,
+"Gender": "Female",
+"Population": 1.7236e+06,
+"gencode":      2 
+},
+{
+ "Age": "20-24",
+"ord": 68,
+"Year":   2030,
+"Gender": "Female",
+"Population": 1.8121e+06,
+"gencode":      2 
+},
+{
+ "Age": "25-29",
+"ord": 69,
+"Year":   2030,
+"Gender": "Female",
+"Population": 1.9912e+06,
+"gencode":      2 
+},
+{
+ "Age": "30-34",
+"ord": 70,
+"Year":   2030,
+"Gender": "Female",
+"Population": 2.2026e+06,
+"gencode":      2 
+},
+{
+ "Age": "35-39",
+"ord": 71,
+"Year":   2030,
+"Gender": "Female",
+"Population": 2.311e+06,
+"gencode":      2 
+},
+{
+ "Age": "40-44",
+"ord": 72,
+"Year":   2030,
+"Gender": "Female",
+"Population": 2.5462e+06,
+"gencode":      2 
+},
+{
+ "Age": "45-49",
+"ord": 73,
+"Year":   2030,
+"Gender": "Female",
+"Population": 2.4563e+06,
+"gencode":      2 
+},
+{
+ "Age": "50-54",
+"ord": 74,
+"Year":   2030,
+"Gender": "Female",
+"Population": 2.3421e+06,
+"gencode":      2 
+},
+{
+ "Age": "55-59",
+"ord": 75,
+"Year":   2030,
+"Gender": "Female",
+"Population": 2.4599e+06,
+"gencode":      2 
+},
+{
+ "Age": "60-64",
+"ord": 76,
+"Year":   2030,
+"Gender": "Female",
+"Population": 3.1732e+06,
+"gencode":      2 
+},
+{
+ "Age": "65-69",
+"ord": 77,
+"Year":   2030,
+"Gender": "Female",
+"Population": 3.2028e+06,
+"gencode":      2 
+},
+{
+ "Age": "70-74",
+"ord": 78,
+"Year":   2030,
+"Gender": "Female",
+"Population": 2.6737e+06,
+"gencode":      2 
+},
+{
+ "Age": "75-79",
+"ord": 79,
+"Year":   2030,
+"Gender": "Female",
+"Population": 2.2148e+06,
+"gencode":      2 
+},
+{
+ "Age": "80-84",
+"ord": 80,
+"Year":   2030,
+"Gender": "Female",
+"Population": 1.5735e+06,
+"gencode":      2 
+},
+{
+ "Age": "85-89",
+"ord": 81,
+"Year":   2030,
+"Gender": "Female",
+"Population": 1.2063e+06,
+"gencode":      2 
+},
+{
+ "Age": "90-94",
+"ord": 82,
+"Year":   2030,
+"Gender": "Female",
+"Population": 7.8781e+05,
+"gencode":      2 
+},
+{
+ "Age": "95-99",
+"ord": 83,
+"Year":   2030,
+"Gender": "Female",
+"Population": 2.4635e+05,
+"gencode":      2 
+},
+{
+ "Age": "100+",
+"ord": 84,
+"Year":   2030,
+"Gender": "Female",
+"Population":  66771,
+"gencode":      2 
+},
+{
+ "Age": "0-4",
+"ord": 85,
+"Year":   2040,
+"Gender": "Female",
+"Population": 1.5425e+06,
+"gencode":      2 
+},
+{
+ "Age": "5-9",
+"ord": 86,
+"Year":   2040,
+"Gender": "Female",
+"Population": 1.5774e+06,
+"gencode":      2 
+},
+{
+ "Age": "10-14",
+"ord": 87,
+"Year":   2040,
+"Gender": "Female",
+"Population": 1.6407e+06,
+"gencode":      2 
+},
+{
+ "Age": "15-19",
+"ord": 88,
+"Year":   2040,
+"Gender": "Female",
+"Population": 1.7363e+06,
+"gencode":      2 
+},
+{
+ "Age": "20-24",
+"ord": 89,
+"Year":   2040,
+"Gender": "Female",
+"Population": 1.8518e+06,
+"gencode":      2 
+},
+{
+ "Age": "25-29",
+"ord": 90,
+"Year":   2040,
+"Gender": "Female",
+"Population": 1.9222e+06,
+"gencode":      2 
+},
+{
+ "Age": "30-34",
+"ord": 91,
+"Year":   2040,
+"Gender": "Female",
+"Population": 1.9541e+06,
+"gencode":      2 
+},
+{
+ "Age": "35-39",
+"ord": 92,
+"Year":   2040,
+"Gender": "Female",
+"Population": 2.0497e+06,
+"gencode":      2 
+},
+{
+ "Age": "40-44",
+"ord": 93,
+"Year":   2040,
+"Gender": "Female",
+"Population": 2.2246e+06,
+"gencode":      2 
+},
+{
+ "Age": "45-49",
+"ord": 94,
+"Year":   2040,
+"Gender": "Female",
+"Population": 2.3197e+06,
+"gencode":      2 
+},
+{
+ "Age": "50-54",
+"ord": 95,
+"Year":   2040,
+"Gender": "Female",
+"Population": 2.5371e+06,
+"gencode":      2 
+},
+{
+ "Age": "55-59",
+"ord": 96,
+"Year":   2040,
+"Gender": "Female",
+"Population": 2.4204e+06,
+"gencode":      2 
+},
+{
+ "Age": "60-64",
+"ord": 97,
+"Year":   2040,
+"Gender": "Female",
+"Population": 2.2705e+06,
+"gencode":      2 
+},
+{
+ "Age": "65-69",
+"ord": 98,
+"Year":   2040,
+"Gender": "Female",
+"Population": 2.3306e+06,
+"gencode":      2 
+},
+{
+ "Age": "70-74",
+"ord": 99,
+"Year":   2040,
+"Gender": "Female",
+"Population": 2.9103e+06,
+"gencode":      2 
+},
+{
+ "Age": "75-79",
+"ord": 100,
+"Year":   2040,
+"Gender": "Female",
+"Population": 2.7702e+06,
+"gencode":      2 
+},
+{
+ "Age": "80-84",
+"ord": 101,
+"Year":   2040,
+"Gender": "Female",
+"Population": 2.0682e+06,
+"gencode":      2 
+},
+{
+ "Age": "85-89",
+"ord": 102,
+"Year":   2040,
+"Gender": "Female",
+"Population": 1.4011e+06,
+"gencode":      2 
+},
+{
+ "Age": "90-94",
+"ord": 103,
+"Year":   2040,
+"Gender": "Female",
+"Population": 7.3357e+05,
+"gencode":      2 
+},
+{
+ "Age": "95-99",
+"ord": 104,
+"Year":   2040,
+"Gender": "Female",
+"Population": 3.4494e+05,
+"gencode":      2 
+},
+{
+ "Age": "100+",
+"ord": 105,
+"Year":   2040,
+"Gender": "Female",
+"Population": 1.3543e+05,
+"gencode":      2 
+},
+{
+ "Age": "0-4",
+"ord": 106,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.5926e+06,
+"gencode":      2 
+},
+{
+ "Age": "5-9",
+"ord": 107,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.5732e+06,
+"gencode":      2 
+},
+{
+ "Age": "10-14",
+"ord": 108,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.5703e+06,
+"gencode":      2 
+},
+{
+ "Age": "15-19",
+"ord": 109,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.6316e+06,
+"gencode":      2 
+},
+{
+ "Age": "20-24",
+"ord": 110,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.7813e+06,
+"gencode":      2 
+},
+{
+ "Age": "25-29",
+"ord": 111,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.9351e+06,
+"gencode":      2 
+},
+{
+ "Age": "30-34",
+"ord": 112,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.9941e+06,
+"gencode":      2 
+},
+{
+ "Age": "35-39",
+"ord": 113,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.9814e+06,
+"gencode":      2 
+},
+{
+ "Age": "40-44",
+"ord": 114,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.9778e+06,
+"gencode":      2 
+},
+{
+ "Age": "45-49",
+"ord": 115,
+"Year":   2050,
+"Gender": "Female",
+"Population": 2.0616e+06,
+"gencode":      2 
+},
+{
+ "Age": "50-54",
+"ord": 116,
+"Year":   2050,
+"Gender": "Female",
+"Population": 2.2216e+06,
+"gencode":      2 
+},
+{
+ "Age": "55-59",
+"ord": 117,
+"Year":   2050,
+"Gender": "Female",
+"Population": 2.2896e+06,
+"gencode":      2 
+},
+{
+ "Age": "60-64",
+"ord": 118,
+"Year":   2050,
+"Gender": "Female",
+"Population": 2.4633e+06,
+"gencode":      2 
+},
+{
+ "Age": "65-69",
+"ord": 119,
+"Year":   2050,
+"Gender": "Female",
+"Population": 2.3002e+06,
+"gencode":      2 
+},
+{
+ "Age": "70-74",
+"ord": 120,
+"Year":   2050,
+"Gender": "Female",
+"Population": 2.0916e+06,
+"gencode":      2 
+},
+{
+ "Age": "75-79",
+"ord": 121,
+"Year":   2050,
+"Gender": "Female",
+"Population": 2.0241e+06,
+"gencode":      2 
+},
+{
+ "Age": "80-84",
+"ord": 122,
+"Year":   2050,
+"Gender": "Female",
+"Population": 2.2788e+06,
+"gencode":      2 
+},
+{
+ "Age": "85-89",
+"ord": 123,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.819e+06,
+"gencode":      2 
+},
+{
+ "Age": "90-94",
+"ord": 124,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.0272e+06,
+"gencode":      2 
+},
+{
+ "Age": "95-99",
+"ord": 125,
+"Year":   2050,
+"Gender": "Female",
+"Population": 4.59e+05,
+"gencode":      2 
+},
+{
+ "Age": "100+",
+"ord": 126,
+"Year":   2050,
+"Gender": "Female",
+"Population": 1.6487e+05,
+"gencode":      2 
+} 
+],
+    xAxis = {
+ "type": "addMeasureAxis",
+"showPercent": false,
+"overrideMax": 3.5e+06,
+"overrideMin": -3.72e+06 
+},
+    yAxis = {
+ "type": "addCategoryAxis",
+"showPercent": false,
+"orderRule": "ord" 
+},
+    zAxis = [],
+    colorAxis = {
+ "type": "addColorAxis",
+"colorSeries": "gencode",
+"palette": [ "black", "red" ] 
+},
+    legend = {
+ "x":     60,
+"y":     10,
+"width":    700,
+"height":     20,
+"horizontalAlign": "right" 
+};
+  var svg = dimple.newSvg("#" + opts.id, opts.width, opts.height);
+
+  //data = dimple.filterData(data, "Owner", ["Aperture", "Black Mesa"])
+  var myChart = new dimple.chart(svg, data);
+  if (opts.bounds) {
+    myChart.setBounds(opts.bounds.x, opts.bounds.y, opts.bounds.width, opts.bounds.height);//myChart.setBounds(80, 30, 480, 330);
+  }
+  //dimple allows use of custom CSS with noFormats
+  if(opts.noFormats) { myChart.noFormats = opts.noFormats; };
+  //for markimekko and addAxis also have third parameter measure
+  //so need to evaluate if measure provided
+  //x axis
+  var x;
+  if(xAxis.measure) {
+    x = myChart[xAxis.type]("x",opts.x,xAxis.measure);
+  } else {
+    x = myChart[xAxis.type]("x", opts.x);
+  };
+  if(!(xAxis.type === "addPctAxis")) x.showPercent = xAxis.showPercent;
+  if (xAxis.orderRule) x.addOrderRule(xAxis.orderRule);
+  if (xAxis.grouporderRule) x.addGroupOrderRule(xAxis.grouporderRule);  
+  if (xAxis.overrideMin) x.overrideMin = xAxis.overrideMin;
+  if (xAxis.overrideMax) x.overrideMax = xAxis.overrideMax;
+  if (xAxis.overrideMax) x.overrideMax = xAxis.overrideMax;
+  if (xAxis.inputFormat) x.dateParseFormat = xAxis.inputFormat;
+  if (xAxis.outputFormat) x.tickFormat = xAxis.outputFormat;
+  //y axis
+  var y;
+  if(yAxis.measure) {
+    y = myChart[yAxis.type]("y",opts.y,yAxis.measure);
+  } else {
+    y = myChart[yAxis.type]("y", opts.y);
+  };
+  if(!(yAxis.type === "addPctAxis")) y.showPercent = yAxis.showPercent;
+  if (yAxis.orderRule) y.addOrderRule(yAxis.orderRule);
+  if (yAxis.grouporderRule) y.addGroupOrderRule(yAxis.grouporderRule);
+  if (yAxis.overrideMin) y.overrideMin = yAxis.overrideMin;
+  if (yAxis.overrideMax) y.overrideMax = yAxis.overrideMax;
+  if (yAxis.inputFormat) y.dateParseFormat = yAxis.inputFormat;
+  if (yAxis.outputFormat) y.tickFormat = yAxis.outputFormat;
+//z for bubbles
+    var z;
+  if (!(typeof(zAxis) === 'undefined') && zAxis.type){
+    if(zAxis.measure) {
+      z = myChart[zAxis.type]("z",opts.z,zAxis.measure);
+    } else {
+      z = myChart[zAxis.type]("z", opts.z);
+    };
+    if(!(zAxis.type === "addPctAxis")) z.showPercent = zAxis.showPercent;
+    if (zAxis.orderRule) z.addOrderRule(zAxis.orderRule);
+    if (zAxis.overrideMin) z.overrideMin = zAxis.overrideMin;
+    if (zAxis.overrideMax) z.overrideMax = zAxis.overrideMax;
+  }
+  if(d3.keys(colorAxis).length > 0) {
+    myChart[colorAxis.type](colorAxis.colorSeries,colorAxis.palette) ;
+  }
+  
+  //here need think I need to evaluate group and if missing do null
+  //as the first argument
+  //if provided need to use groups from opts
+  if(opts.hasOwnProperty("groups")) {
+    var s = myChart.addSeries( opts.groups, dimple.plot[opts.type] );
+    //series offers an aggregate method that we will also need to check if available
+    //options available are avg, count, max, min, sum
+    if (!(typeof(opts.aggregate) === 'undefined')) {
+      s.aggregate = eval(opts.aggregate);
+    }
+    if (!(typeof(opts.lineWeight) === 'undefined')) {
+      s.lineWeight = eval(opts.lineWeight);
+    }
+    if (!(typeof(opts.barGap) === 'undefined')) {
+      s.barGap = eval(opts.barGap);
+    }    
+  } else var s = myChart.addSeries( null, dimple.plot[opts.type] );
+  //unsure if this is best but if legend is provided (not empty) then evaluate
+  if(d3.keys(legend).length > 0) {
+    var l =myChart.addLegend();
+    d3.keys(legend).forEach(function(d){
+      l[d] = legend[d];
+    });
+  }
+  //quick way to get this going but need to make this cleaner
+  if(opts.storyboard) {
+    myChart.setStoryboard(opts.storyboard);
+  };
+  myChart.draw();
+
+</script>
+    
+    
+                      <script>
+                        x._getFormat = function () {
+                        return function(d) {
+                        return d3.format(',.1f')(Math.abs(d) / 1000000) + 'm';
+                         };
+                        };
+                      myChart.draw()
+                      </script>
+                          
+  </body>
+</html>
