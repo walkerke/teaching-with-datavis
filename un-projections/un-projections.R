@@ -34,6 +34,13 @@ c1$chart(tooltipContent = "#! function(key, x, y){
         '<p>' + y + ' billion in ' + x + '</p>'
         } !#")
 
+<<<<<<< HEAD
+# c1$chart(useInteractiveGuideline = TRUE)
+
+# c1$chart(style = 'expand')
+
+=======
+>>>>>>> origin/master
 # Projected population by variant
 
 variants <- c("Low", "Medium", "High", "Constant fertility")
