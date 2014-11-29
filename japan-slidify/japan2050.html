@@ -1,0 +1,277 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    
+    <script src='//code.jquery.com/jquery-1.9.1.min.js' type='text/javascript'></script>
+    <script src='//code.highcharts.com/highcharts.js' type='text/javascript'></script>
+    <script src='//code.highcharts.com/highcharts-more.js"' type='text/javascript'></script>
+    <script src='//code.highcharts.com/modules/exporting.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 500px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart1cc0202835a9' class = 'rChart highcharts'></div>    
+    <script type='text/javascript'>
+    (function($){
+        $(function () {
+            var chart = new Highcharts.Chart({
+ "dom": "chart1cc0202835a9",
+"width":            500,
+"height":            400,
+"credits": {
+ "href": null,
+"text": null 
+},
+"exporting": {
+ "enabled": true 
+},
+"title": {
+ "text": null 
+},
+"yAxis": [
+ {
+ "labels": {
+ "formatter":  function() { return (Math.abs(this.value) / 1000000) + 'M';}  
+},
+"title": {
+ "enabled": true,
+"text": "Population" 
+} 
+} 
+],
+"series": [
+ {
+ "data": [
+ [
+ "100+",
+       1067186 
+],
+[
+ "95-99",
+       1716944 
+],
+[
+ "90-94",
+       2350084 
+],
+[
+ "85-89",
+       3076113 
+],
+[
+ "80-84",
+       3771959 
+],
+[
+ "75-79",
+       4514761 
+],
+[
+ "70-74",
+       4083003 
+],
+[
+ "65-69",
+       3740290 
+],
+[
+ "60-64",
+       3265665 
+],
+[
+ "55-59",
+       2936572 
+],
+[
+ "50-54",
+       2862594 
+],
+[
+ "45-49",
+       2743862 
+],
+[
+ "40-44",
+       2720904 
+],
+[
+ "35-39",
+       2558647 
+],
+[
+ "30-34",
+       2326400 
+],
+[
+ "25-29",
+       2157445 
+],
+[
+ "20-24",
+       2069274 
+],
+[
+ "15-19",
+       2022703 
+],
+[
+ "10-14",
+       1975200 
+],
+[
+ "5-9",
+       1897438 
+],
+[
+ "0-4",
+       1798698 
+] 
+],
+"name": "Female",
+"type": "bar",
+"marker": {
+ "radius":              3 
+} 
+},
+{
+ "data": [
+ [
+ "100+",
+       -262459 
+],
+[
+ "95-99",
+       -711438 
+],
+[
+ "90-94",
+      -1372353 
+],
+[
+ "85-89",
+      -2226800 
+],
+[
+ "80-84",
+      -3075196 
+],
+[
+ "75-79",
+      -3917322 
+],
+[
+ "70-74",
+      -3630293 
+],
+[
+ "65-69",
+      -3422684 
+],
+[
+ "60-64",
+      -3102412 
+],
+[
+ "55-59",
+      -3085976 
+],
+[
+ "50-54",
+      -3212478 
+],
+[
+ "45-49",
+      -2957790 
+],
+[
+ "40-44",
+      -2859552 
+],
+[
+ "35-39",
+      -2691574 
+],
+[
+ "30-34",
+      -2449720 
+],
+[
+ "25-29",
+      -2273607 
+],
+[
+ "20-24",
+      -2182149 
+],
+[
+ "15-19",
+      -2134188 
+],
+[
+ "10-14",
+      -2084510 
+],
+[
+ "5-9",
+      -2002655 
+],
+[
+ "0-4",
+      -1898638 
+] 
+],
+"name": "Male",
+"type": "bar",
+"marker": {
+ "radius":              3 
+} 
+} 
+],
+"xAxis": [
+ {
+ "title": {
+ "text": "Age" 
+},
+"categories": [ "100+", "95-99", "90-94", "85-89", "80-84", "75-79", "70-74", "65-69", "60-64", "55-59", "50-54", "45-49", "40-44", "35-39", "30-34", "25-29", "20-24", "15-19", "10-14", "5-9", "0-4" ] 
+} 
+],
+"subtitle": {
+ "text": null 
+},
+"plotOptions": {
+ "series": {
+ "stacking": "normal",
+"pointPadding":              0,
+"borderWidth":              0 
+} 
+},
+"tooltip": {
+ "formatter":  function() { return '<b>'+ this.series.name +', age '+ this.point.category +'</b><br/>' + 'Population: ' + Highcharts.numberFormat(Math.abs(this.point.y), 0);}  
+},
+"legend": {
+ "reversed": "true" 
+},
+"colors": [ "red", "blue" ],
+"id": "chart1cc0202835a9",
+"chart": {
+ "renderTo": "chart1cc0202835a9" 
+} 
+});
+        });
+    })(jQuery);
+</script>
+    
+    <script></script>    
+  </body>
+</html>
