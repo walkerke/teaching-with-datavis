@@ -13,7 +13,8 @@ regions <- c("Africa", "Latin America and the Caribbean", "Northern America", "E
 
 region_dat <- dat %>%
   filter(VarID == 2, 
-         Location %in% regions) %>%
+         Location %in% regions, 
+         Time %in% c(seq(1950, 2100, 10), 2099)) %>%
   mutate(billions = PopTotal / 1000000) %>%
   select(Location, Time, billions)
 

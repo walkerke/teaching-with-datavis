@@ -139,6 +139,9 @@ hPyramid <- function(country, year, colors = NULL) {
   if (length(year) > 1) {
     stop('Right now, hPyramid only accepts one year')
   }
+  
+  h1$exporting(enabled = TRUE)
+  
   h1
 }
 
