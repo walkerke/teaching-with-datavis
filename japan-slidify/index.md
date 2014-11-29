@@ -68,7 +68,7 @@ font-size: 100% !important;
 
 ## Japan in 2050
 
-<iframe src="http://dl.dropbox.com/s/k3mkrehcwclcmy9/japan2050.html" width="825" height="500" seamless frameBorder="0"></iframe>
+<iframe src="http://walkerke.github.io/teaching-with-datavis/pyramids/japan2050.html" width="825" height="500" seamless frameBorder="0"></iframe>
 
 <span class="footnote">Data source: US Census Bureau</span>
 
