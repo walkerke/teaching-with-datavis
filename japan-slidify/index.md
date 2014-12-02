@@ -9,7 +9,6 @@ landslide:
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
 widgets     : []            # {mathjax, quiz, bootstrap}
-ext_widgets : {rCharts: libraries/nvd3}
 mode        : selfcontained # {standalone, draft}
 ---
 
@@ -45,7 +44,7 @@ font-size: 100% !important;
 
 <img src=assets/img/tokyo.jpg style="width: 750px">
 
-<span class="footnote">Source: maxisciences.com</span>
+<span class="footnote">Source: [maxisciences.com](http://img1.mxstatic.com/wallpapers/313ec7a690d40c8381ddff3cbf781e16_large.jpeg)</span>
 
 ---
 
@@ -60,7 +59,7 @@ font-size: 100% !important;
 
 ## Demography of Japan
 
-<iframe src="http://plot.ly/~walkerke/57" width="800" height="500" seamless scrolling="no" frameBorder="0"></iframe>
+<iframe src="http://plot.ly/~walkerke/57" width="800" height="500" scrolling="no" frameBorder="0"></iframe>
 
 <span class="footnote">Data source: United Nations</span>
 
@@ -68,7 +67,7 @@ font-size: 100% !important;
 
 ## Japan in 2050
 
-<iframe src="http://walkerke.github.io/teaching-with-datavis/pyramids/japan2050.html" width="825" height="500" seamless frameBorder="0"></iframe>
+<iframe src="http://walkerke.github.io/teaching-with-datavis/pyramids/japan2050.html" width="825" height="500" frameBorder="0"></iframe>
 
 <span class="footnote">Data source: US Census Bureau</span>
 
