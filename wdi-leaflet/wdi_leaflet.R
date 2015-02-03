@@ -2,7 +2,7 @@ library(rgdal)
 library(WDI)
 library(leaflet)
 
-## Function to create a Leaflet interactive map in RStudio from a World Bank indicator.  
+### Function to create a Leaflet interactive map in RStudio from a World Bank indicator.
 
 wdi_leaflet <- function(indicator, indicator_alias = "Value", year = 2012, classes = 5, colors = "Blues") {
   
@@ -47,13 +47,13 @@ wdi_leaflet <- function(indicator, indicator_alias = "Value", year = 2012, class
                           ": </strong>", 
                           countries2[[indicator]])
   
-  mb_tiles <- "http://a.tiles.mapbox.com/v3/kwalkertcu.l1fc0hab/{z}/{x}/{y}.png"
+  stamen_tiles <- "http://{s}.tile.stamen.com/toner-lite/{z}/{x}/{y}.png"
   
-  mb_attribution <- 'Mapbox <a href="http://mapbox.com/about/maps" target="_blank">Terms &amp; Feedback</a>'
+  stamen_attribution <- 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, under <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>. Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.'
   
   leaflet(data = countries2) %>%
-    addTiles(urlTemplate = mb_tiles,  
-             attribution = mb_attribution) %>%
+    addTiles(urlTemplate = stamen_tiles,  
+             attribution = stamen_attribution) %>%
     setView(0, 0, zoom = 3) %>%
     addPolygons(fillColor = ~pal(countries2[[indicator]]), 
                 fillOpacity = 0.8, 
