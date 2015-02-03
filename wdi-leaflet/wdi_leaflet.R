@@ -4,7 +4,7 @@ library(leaflet)
 
 ## Function to create a Leaflet interactive map in RStudio from a World Bank indicator.  
 
-wdi_leaflet <- function(indicator, indicator_alias = "Indicator", year = 2012, classes = 5, colors = "Blues") {
+wdi_leaflet <- function(indicator, indicator_alias = "Value", year = 2012, classes = 5, colors = "Blues") {
   
   url <- "http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip"
     
