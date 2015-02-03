@@ -18,7 +18,8 @@ wdi_leaflet <- function(indicator, indicator_alias = "Value", year = 2012, class
     
   countries <- readOGR(dsn = tmp, 
                        layer = "ne_50m_admin_0_countries", 
-                       encoding = "UTF-8")
+                       encoding = "UTF-8",
+                       verbose = FALSE)
     
 
   dat <- WDI(country = "all", 
