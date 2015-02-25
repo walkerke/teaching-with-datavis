@@ -7,11 +7,19 @@ library(magrittr)
 library(stringr)
 library(tidyr)
 
+## Download the data yourself and save it in your working directory, or un-comment the line below
+## to read in the data directly
+
 dat <- read.dta("U.S. Religion Census Religious Congregations and Membership Study, 2010 (County File).dta")
 
 # dat <- read.dta("http://www.thearda.com/download/download.aspx?file=U.S.%20Religion%20Census%20Religious%20Congregations%20and%20Membership%20Study,%202010%20(County%20File).DTA")
 
 dir <- getwd()
+
+# This is a simplified county dataset that originally comes from NHGIS.  Credit: 
+# Minnesota Population Center. National Historical Geographic Information System: Version 2.0. 
+# Minneapolis, MN: University of Minnesota 2011.
+# Polygons were simplified in QGIS at a tolerance of 100m.  
  
 counties <- readOGR(dir, layer = "counties100m", stringsAsFactors = FALSE)
 
