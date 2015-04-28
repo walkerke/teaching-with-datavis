@@ -7,10 +7,6 @@ library(dplyr)
 
 indicator <- "SI.POV.GINI"
 
-account_id = "kwalkertcu"
-
-api_key = "5df64eccc8c443fe7c5622f97b7c4d86e5c98785"
-
 url <- "http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip"
 
 tmp <- tempdir()
