@@ -86,7 +86,7 @@ gini_map <- leaflet(data = countries2) %>%
             title = "Gini index", 
             labels = labs)
 
-htmlwidgets::saveWidget(gini_map, file = "gini.html", selfcontained = FALSE)
+# htmlwidgets::saveWidget(gini_map, file = "gini.html", selfcontained = FALSE)
 
 ## Dot plot
 
@@ -115,4 +115,4 @@ gini_chart <- ggplot(df1, aes(x = reorder(country, gini), y = gini, color = Cont
   scale_color_brewer(palette = "Set1") + 
   ggtitle("Most unequal countries (World Bank Gini index estimate)")
 
-ggsave("gini_coef.png", gini_chart, dpi = 300)
+# ggsave("gini_coef.png", gini_chart, dpi = 300)
