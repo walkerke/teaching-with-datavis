@@ -3,6 +3,9 @@
 library(rgdal)
 library(WDI)
 library(dplyr)
+library(magrittr)
+library(leaflet)
+library(ggplot2)
 
 
 indicator <- "SI.POV.GINI"
@@ -55,16 +58,33 @@ countries2 <- merge(countries,
 
 # Leaflet map
 
+# devtools::install_github('rstudio/leaflet@feature/color-legend')
+
 library(leaflet)
 
-pal <- colorQuantile("YlGnBu", countries2$SI.POV.GINI.y, n = 6)
+pal <- colorQuantile("YlGnBu", NULL, n = 6)
 
-labs <- c("24.8-31.6", "31.6-38.5", "38.5-45.3", "45.3-52.1", "52.1-59.0", "59.0-65.8", "Data unavailable")
+# Get some nice legend labels
+
+quantile_labels <- function(vec, n) {
+  qs <- round(quantile(vec, seq(0, 1, 1/n), na.rm = TRUE), 1)
+  len <- length(qs) - 1
+  qlabs <- c()
+  for (i in 1:len) {
+    j <- i + 1
+    v <- paste0(as.character(qs[i]), "-", as.character(qs[j]))
+    qlabs <- c(qlabs, v)
+  }
+  final_labs <- c(qlabs, "Data unavailable")
+  final_labs
+}
+
+labs <- quantile_labels(countries2$SI.POV.GINI.y, 6)
 
 popup <- paste0("<strong>", countries2$name, "</strong><br>",
                 "<strong>Gini index: </strong>", countries2$SI.POV.GINI.y,  
-                      "<br><strong>Global inequality rank: </strong>", countries2$g_rank, 
-                      "<br><strong>Year of estimate: </strong>", countries2$year.y)
+                "<br><strong>Global inequality rank: </strong>", countries2$g_rank, 
+                "<br><strong>Year of estimate: </strong>", countries2$year.y)
 
 mb_tiles <- "http://a.tiles.mapbox.com/v3/kwalkertcu.l1fc0hab/{z}/{x}/{y}.png"
 
@@ -80,11 +100,12 @@ gini_map <- leaflet(data = countries2) %>%
               weight = 1, 
               popup = popup) %>%
   addLegend(colors = c(RColorBrewer::brewer.pal(6, "YlGnBu"), "#808080"),  
-            values = countries2$SI.POV.GINI.y, 
             bins = 6, 
             position = 'bottomright', 
             title = "Gini index", 
             labels = labs)
+
+gini_map
 
 # htmlwidgets::saveWidget(gini_map, file = "gini.html", selfcontained = FALSE)
 

@@ -1,0 +1,7 @@
+name: Publish Document
+account: rpubs
+server: rpubs.com
+bundleId:
+        https://api.rpubs.com/api/v1/document/78684/c33042bb5e8140858fa7c03d2bfd2fd4
+url: http://rpubs.com/walkerke/78684
+when: 1430876916.5651
